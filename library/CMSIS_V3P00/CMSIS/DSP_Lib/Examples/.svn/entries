@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/DSP_Lib/Examples"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="Common"
+   kind="dir"/>
+<entry
+   name="arm_class_marks_example"
+   kind="dir"/>
+<entry
+   name="arm_convolution_example"
+   kind="dir"/>
+<entry
+   name="arm_dotproduct_example"
+   kind="dir"/>
+<entry
+   name="arm_fft_bin_example"
+   kind="dir"/>
+<entry
+   name="arm_fir_example"
+   kind="dir"/>
+<entry
+   name="arm_graphic_equalizer_example"
+   kind="dir"/>
+<entry
+   name="arm_linear_interp_example"
+   kind="dir"/>
+<entry
+   name="arm_matrix_example"
+   kind="dir"/>
+<entry
+   name="arm_signal_converge_example"
+   kind="dir"/>
+<entry
+   name="arm_sin_cos_example"
+   kind="dir"/>
+<entry
+   name="arm_variance_example"
+   kind="dir"/>
+</wc-entries>

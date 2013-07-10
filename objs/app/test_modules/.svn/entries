@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="592"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/objs/app/test_modules"
+   committed-rev="592"
+   kind="dir"
+   committed-date="2012-05-10T13:56:27.597000Z"/>
+<entry
+   name="test_acc"
+   kind="dir"/>
+<entry
+   name="test_cmsis"
+   kind="dir"/>
+<entry
+   name="test_decoder"
+   kind="dir"/>
+<entry
+   name="test_gyro"
+   kind="dir"/>
+<entry
+   name="test_image"
+   kind="dir"/>
+<entry
+   name="test_light"
+   kind="dir"/>
+<entry
+   name="test_motor"
+   kind="dir"/>
+<entry
+   name="test_sd"
+   kind="dir"/>
+<entry
+   name="test_speaker"
+   kind="dir"/>
+<entry
+   name="test_steer"
+   kind="dir"/>
+<entry
+   name="test_switch"
+   kind="dir"/>
+</wc-entries>

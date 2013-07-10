@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/Device/_Template_Vendor/Vendor/Device/Source"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ARM"
+   kind="dir"/>
+<entry
+   name="G++"
+   kind="dir"/>
+<entry
+   name="GCC"
+   kind="dir"/>
+<entry
+   name="IAR"
+   kind="dir"/>
+<entry
+   name="system_Device.c"
+   checksum="147f95514275021cf2e17f98b5bd1f48"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T03:27:36.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

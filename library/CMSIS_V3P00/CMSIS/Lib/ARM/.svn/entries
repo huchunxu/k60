@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/Lib/ARM"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0b_math.lib"
+   checksum="457330f64cf992e8b5f83bf20c8ac3d8"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:43:50.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:22.000000Z"/>
+<entry
+   name="arm_cortexM0l_math.lib"
+   checksum="badf812d6436ad58f0b7fa34ec32eef5"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:43:12.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:20.000000Z"/>
+<entry
+   name="arm_cortexM3b_math.lib"
+   checksum="6b593718b29a48e6877612d196be8548"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:45:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:56.000000Z"/>
+<entry
+   name="arm_cortexM3l_math.lib"
+   checksum="b6d29216698ff743068b6bfb9f6a935e"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:44:36.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:22.000000Z"/>
+<entry
+   name="arm_cortexM4b_math.lib"
+   checksum="20a509253f2aed41aeeb6586e3bbcdcb"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:46:40.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:11.000000Z"/>
+<entry
+   name="arm_cortexM4bf_math.lib"
+   checksum="84f27a9cd075514f7effdc3502e27478"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:48:04.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:49.000000Z"/>
+<entry
+   name="arm_cortexM4l_math.lib"
+   checksum="390e18aacd06627a1b7a8af420856c22"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:46:00.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:26.000000Z"/>
+<entry
+   name="arm_cortexM4lf_math.lib"
+   checksum="3ba83b30d82d3efe3e613920cae55cd8"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:47:24.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:46.000000Z"/>
+</wc-entries>

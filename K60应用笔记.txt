@@ -1,0 +1,125 @@
+1. K60的时钟域
+	控制器: Multipurpose Clock Generator, System oscillator
+	内部时钟：
+		默认4 Mhz
+	外部时钟
+		USB 48Mhz
+		Ether 50Mhz
+		I2S	  50 Mhz
+		SDHC  50 Mhz
+		Clock 100 Mhz
+		Trace clock 100 Mhz
+	系统时钟的信号来源 FCLK
+	PLL选项
+		PLL的之中来源应在2-4Mhz之间.
+	FLL选项
+		FLL时钟必须在31.25-39.0625Khz之间
+	时钟分频
+		1-16
+	重要外设时钟
+时钟组合:
+	1.不使用USB: 100,100,50,50,50,25
+	2.使用USB:	 96,96,48,48,48,24 
+时钟初始化基本流程
+	FLL作用:迅速的把频率提起来
+	PLL作用:在FLL的基础上，进一步逼近相位.
+	FLL是PLL的辅助
+	1. FLL
+		a. FLL engaged internal （内部时钟）有个时钟可以运行
+		b. FLL engaged external (外部时钟) 外部时钟，FLL做时钟源
+		c. FLL bypassed external		外部时钟进FLL
+		d. 稳定后，交给PLL， PBE
+		e. PEE, 外部时钟，PLL时钟源.
+	
+
+
+2. K60的存储控制器
+	带有MPU
+	Program Flash 普通的Flash,用以执行代码,最多有两块，可以交替(swapped)
+	如无FlexNVM，就有Programming acceleration RAM.
+	FlexNVM
+		不能交替
+		可做RAM用，也可以做ROM用，具有类似EEPROM的特点.
+
+3. Cortex-M3/M4 通用
+	a.运行模式简化
+		线程模式(任务上下文PSP,特权和非特权), handler模式(非任务上下文MSP，特权）
+	b.中断控制
+		k60的中断向量表必须512字节对齐.
+		k60支持16级中断优先级，高四位为中断优先级.
+		IRQ号和VECT号，正好偏移16
+	c. Ibus和Dbus的访问区间:0-1FFFFFFF.(低512MB)
+	d. 对于K60
+		system bus访问一般外设
+		私有外设总线访问系统部件
+			NVIC,ETM,ITM,DWT,FBP,ROM表
+			MCM(Miscellaneous Control Module)混合控制模块.
+			MMCAU，加密加速模块.
+
+4.任务
+	1.初始化完善
+		调试和非调试RAM_DEBUG,调试时由openocd完成时钟和存储控制器的初始
+化.Release时由代码完成.
+	2.提供一整套中断操作函数
+	3.简单的串口双环缓冲驱动和系统时钟驱动
+
+5.目录结构
+		include常用头文件
+		k60的驱动应该按照
+			core
+			system
+			clock
+			memory
+			security
+			analog
+			timer
+			comm
+			hm
+		等几个目录划分.
+
+K60启动顺序
+1. RESET脚拉低
+2. 默认时钟,core clock, system clock,flash clock,以及其他部分时钟启动
+3. flash controller会完成初始化
+4. flash controller继续初始化, 判断Ezport
+5. flash controller初始化完后, 判断RESET是否继续为低?
+6. 根据FTFL_FOPT的选项判断如何启动
+7. 从中断向量启动
+8. 恢复FlexNVM中的数据
+	
+
+K60的power模式比较丰富，共计8种状态.在使用电池的应用中需要仔细考虑.
+K60的引脚可以重配置.
+
+System Intergration Module
+
+6.中断相关
+(1) 中断允许的时候使用的是中断请求号，而不是中断向量号，需要转换。
+
+7.数据类型
+(1) 32位单片机中int和unsigned int型变量好似一样的，都是32位的
+
+8.串口
+(1) 配置串口的之前一定要开启端口时钟，否则会产生hard_fault
+(2) 没有找到发送、接收的中断标志寄存器，sio_handler1中断函数还需要完善
+
+9.优化
+（1） gcc会将一些不必要的循环进行优化，所以要注意相应的变量声明程voliate
+
+10.ntshell
+(1) 是否需要回显？
+
+11.flash烧写
+    K60的1024-1040字节处为flash的配置，不能乱写。解决方法是头1024字节用作中断向量表。1024-1040用作flash配置.  头1K字节可能要浪费。
+另外，在openocd.cfg中，你最好先把频率初始化到100Mhz，否则写入速度回很慢。
+    在openocd.cfg中最好也把外部存储给初始化好，形式参见YBDC中openocd.cfg的形式。
+
+12.NOR flash usually supports direct CPU instruction and data bus access, while data from a NAND flash must be copied to memory before it can be used. (SPI flash must also be copied to memory before use.) 
+
+13.将cmsis生成的.o文件打包成静态库：
+    arm-none-eabi-ar rcs libcmsis.a *.o
+    然后在makefile中加入库文件即可
+    
+14.SD卡：
+    (1) 在spi发送数据后一定要确定数据发送完毕
+    (2) spi运行时无法修改spi的波特率，需要重新初始化

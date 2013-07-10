@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/SVD"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ARM_Sample.svd"
+   checksum="3d48564e713ef38a5822956c4ac4af72"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-17T02:44:10.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ARM_Sample_1_1.svd"
+   checksum="e22eb6747f670e71ecb9b8f464e0c3df"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-17T02:44:10.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="CMSIS-SVD_Schema_1_0.xsd"
+   checksum="d576e39104d434a40c3718f6369ebbd6"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:32.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="CMSIS-SVD_Schema_1_1_draft.xsd"
+   checksum="f219779cc35353ae48726c27fc23359a"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:32.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="SVDConv.exe"
+   checksum="650c252ca9c622856d829ce421fc5e1a"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-17T02:44:10.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:07.000000Z"/>
+</wc-entries>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/DSP_Lib/Examples/arm_linear_interp_example/ARM"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0l_linear_interp_example.uvopt"
+   checksum="4305d844285aae0af48881d0234baf40"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0l_linear_interp_example.uvproj"
+   checksum="76b3dd7a0cecfbc68f4bbe3891376580"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3l_linear_interp_example.uvopt"
+   checksum="949c0eda088fdffed236643f213dbf08"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3l_linear_interp_example.uvproj"
+   checksum="dd91c85b027322acc0a7873623ae8e5f"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4lf_linear_interp_example.uvopt"
+   checksum="13265212291b4447667e5582566f7c4c"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4lf_linear_interp_example.uvproj"
+   checksum="f7be71b44bf40fee5b180ecb203ce0ae"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_linear_interp_example.ini"
+   checksum="de649391876f09f6835f1952f0ded31f"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

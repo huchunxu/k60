@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="622"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/app/test_board/test_cmos"
+   committed-rev="622"
+   kind="dir"
+   committed-date="2012-05-19T04:55:21.266000Z"/>
+<entry
+   name="test_cmos.c"
+   revision="711"
+   checksum="b344ddc50e8f780e51c4bea97912aa48"
+   last-author="hcx"
+   committed-rev="711"
+   text-time="2012-06-14T15:55:55.000000Z"
+   kind="file"
+   committed-date="2012-07-02T13:26:04.768000Z"/>
+</wc-entries>

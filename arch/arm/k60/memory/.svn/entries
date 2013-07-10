@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/arch/arm/k60/memory"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="flexbus.c"
+   revision="630"
+   checksum="6b7bca732982bf9878eff71e6437d047"
+   last-author="hcx"
+   text-time="2012-05-19T16:45:34.000000Z"
+   committed-rev="630"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="flexbus.h"
+   revision="630"
+   checksum="7d376adeb0bf084e115e7d38483d15fd"
+   last-author="hcx"
+   text-time="2012-05-19T16:45:45.000000Z"
+   committed-rev="630"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+</wc-entries>

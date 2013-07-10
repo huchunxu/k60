@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="591"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/app/test_modules/test_speaker"
+   uuid="f749ae64-f827-4093-bd10-ce5271c3ca3a"
+   committed-rev="591"
+   kind="dir"
+   committed-date="2012-05-10T13:54:17.492844Z"/>
+<entry
+   name="test_speaker.c"
+   revision="630"
+   checksum="fb3e063563aa24e69163786be95f0f39"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T16:38:36.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+</wc-entries>

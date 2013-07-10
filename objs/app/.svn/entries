@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="592"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/objs/app"
+   committed-rev="592"
+   kind="dir"
+   committed-date="2012-05-10T13:56:27.597000Z"/>
+<entry
+   name="camera_car"
+   kind="dir"/>
+<entry
+   name="test_board"
+   kind="dir"/>
+<entry
+   name="test_modules"
+   kind="dir"/>
+</wc-entries>

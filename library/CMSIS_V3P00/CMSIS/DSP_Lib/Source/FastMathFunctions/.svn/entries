@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/DSP_Lib/Source/FastMathFunctions"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cos_f32.c"
+   checksum="b29c38ca9eb8ef5ab8cda56d4e2aa984"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:32.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cos_q15.c"
+   checksum="3441c63a3cb31c5c55b037c0588d6360"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-01-20T12:43:32.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cos_q31.c"
+   checksum="801ea8143772297602af0207bb2744d7"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-01-20T12:43:42.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_sin_f32.c"
+   checksum="27742d4d9f1beee3aba665d5d121140c"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:32.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_sin_q15.c"
+   checksum="10510c6589cbb229feca3b6c3c4103eb"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-01-20T12:42:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_sin_q31.c"
+   checksum="2d17ca77c4150f5ae98b5adf22de0879"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-01-20T12:41:50.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_sqrt_q15.c"
+   checksum="07971c5294ae714cb47e20b8c7580100"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:32.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_sqrt_q31.c"
+   checksum="e41e688742cdfdcd141e5526c95d06ab"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:32.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

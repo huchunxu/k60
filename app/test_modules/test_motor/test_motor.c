@@ -1,0 +1,158 @@
+/*
+ * =====================================================================================
+ *        COPYRIGHT NOTICE
+ *        Copyright (c) 2012  HUST-Renesas Lab
+ *        ALL rights reserved.
+ *//**        
+ *        @file     test_motor.c
+ *
+ *        @brief    测试motor模块
+ *
+ *        @version  0.1
+ *        @date     2012/5/8 17:00
+ *
+ *        @author   Hu Chunxu , hcx196@gmail.com
+ *        
+ *        @note    
+ *//* ==================================================================================
+ *  @0.1    Hu Chunxu   2012/5/8   create orignal file
+ * =====================================================================================
+ */
+#include <stdio.h>
+
+#include "common.h"
+#include "exception.h"
+#include "sys_timer.h"
+#include "task_ntshell.h"
+
+#include "motor.h"
+#include "serial.h"
+
+void delay(uint32_t ntime);
+
+
+int main(int argc, char **argv)
+{
+    uint8_t motor_no = 0;
+    uint8_t motor_total_no = 2;
+    uint8_t n =0;
+    uint8_t get_char = 0;
+    ER motor_msg = 0;
+    int32_t motor_duty = 20;
+    
+    /* 模块初始化 */
+    exc_init();                                          /* 中断初始化 */
+    sys_timer_init();                                    /* 系统时钟初始化 */
+    motor_init();                                        /* 电机初始化 */
+    //serial_initialize((intptr_t)(NULL));                 /* 初始化串口 */
+
+    //gpio_init(PORT_NO_GET(PTC0), PIN_NO_GET(PTC0), OUT_PUT, 0);
+    //gpio_init(PORT_NO_GET(PTC2), PIN_NO_GET(PTC2),OUT_PUT, 1);
+
+    while(1)
+    {
+    	motor_output(MOTOR_LEFT, 50);
+    	motor_output(MOTOR_RIGHT, 50);
+    }
+
+
+    printf("\n Welcome to k60 software platform! \n");    
+    
+    while (1)
+    {
+        printf(" *** This is a test for motor module! *** \n");
+
+        printf(" \n>>>> One motor will be powered on followed by another! \n");
+        for (motor_no = 0; motor_no < motor_total_no; motor_no++)
+        {
+            delay(120);
+            switch (motor_no)
+            {
+                case 0:
+                    motor_msg = motor_output(MOTOR0, motor_duty);
+                    break;
+                case 1:
+                    motor_msg = motor_output(MOTOR1, motor_duty);
+                    break;
+                default:
+                    printf("The motor number is error!\n");
+                    break;
+            }
+
+            if (motor_msg == E_ID)
+            {
+                printf(" The ID of motor%d is error !\n", motor_no);
+            }
+            else if (motor_msg == E_ILUSE)
+            {
+                printf(" The port of motor%d is not open !\n", motor_no);
+            }
+            else
+            {
+                printf(" The motor%d has been powered on!\n", motor_no);
+            }
+        }
+        
+        delay(200);
+        motor_duty = 0;
+        printf(" \n>>>> All the motors will change the direction and duty!\n");
+        for (n = 0; n < 16; n++)
+        { 
+            if(n < 8)
+            {
+                motor_duty = motor_duty + 10;
+            }
+            else
+            {
+                motor_duty = motor_duty - 10;
+            }
+            printf("The duty of the motor is %d\n", (int)motor_duty);
+            motor_output(MOTOR0,  motor_duty);
+            delay(50);
+        }
+        
+        motor_duty = 0;
+        for (n = 0; n < 16; n++)
+        {
+            if(n < 8)
+            {
+                motor_duty = motor_duty - 10;
+            }
+            else
+            {
+                motor_duty = motor_duty + 10;
+            }
+            printf("The duty of the motor is %d\n", (int)motor_duty);
+            motor_output(MOTOR0,  motor_duty);
+            delay(50);
+        }
+
+        printf(" \n>>>> A test for motor module is over!\n");
+        while (1)
+        {
+            printf(" \n>>>> Press 'n' to test once more.\n");
+            serial_rea_dat(NTSHELL_PORTID, &get_char, 1);
+            
+            if (get_char == 'n')
+            {
+                printf("Once more \n");
+                delay(200);
+                break;
+            }
+        }
+    }
+}
+
+/**
+ *    @brief   简单的延时函数
+ *
+ *    @param   ntime  延时周期
+ */
+void delay(uint32_t ntime)
+{
+    uint32_t i = 0, j = 0;
+    
+    for(i=0;i<ntime;i++)
+        for(j=0;j<100000;j++);
+}
+

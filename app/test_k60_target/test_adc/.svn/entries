@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/app/test_k60_target/test_adc"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="test_adc.c"
+   revision="630"
+   checksum="07af861f6df1979ed2c7c9a304038eb0"
+   last-author="hcx"
+   text-time="2012-05-19T17:04:58.000000Z"
+   committed-rev="630"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+</wc-entries>

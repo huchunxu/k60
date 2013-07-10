@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/DSP_Lib/Examples/arm_dotproduct_example/ARM"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0l_dotproduct_example.uvopt"
+   checksum="c4f7797b5ba4b65b24390ca98dbd0b16"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:42.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0l_dotproduct_example.uvproj"
+   checksum="eb3e2eec65141fab7d96279563a9516d"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:42.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3l_dotproduct_example.uvopt"
+   checksum="f64f62b267f596135feae04f3d12c938"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3l_dotproduct_example.uvproj"
+   checksum="728a53bedeb06a880889a65883b9a161"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:42.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4lf_dotproduct_example.uvopt"
+   checksum="60031977037f9e25ac790535cb5962cb"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:42.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4lf_dotproduct_example.uvproj"
+   checksum="17e40fff14691fed4b8773892c0fbc8c"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_dotproduct_example.ini"
+   checksum="6ec2d32d0b375636478e3229feda031e"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:42.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/DSP_Lib/Examples/arm_fir_example/ARM"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0l_fir_example.uvopt"
+   checksum="3863cfd174befc4e193770720f7cf57d"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0l_fir_example.uvproj"
+   checksum="f082b4d7f9e91b6af66e276ebcba7145"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:48.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3l_fir_example.uvopt"
+   checksum="eab2d5de6bd9003b09b8bca7801a3c6c"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3l_fir_example.uvproj"
+   checksum="7a578c27dd1c49b27944a84a553fd67f"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:48.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4lf_fir_example.uvopt"
+   checksum="927ca45b2ede2e4bb5bbc3735aec96a3"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:48.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4lf_fir_example.uvproj"
+   checksum="09df5f4e0f5f27ccfbc1b16082ee1219"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_fir_example.ini"
+   checksum="933e947214edbe1dad81c67d075f1eb4"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:48.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

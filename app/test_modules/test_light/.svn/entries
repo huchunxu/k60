@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="591"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/app/test_modules/test_light"
+   uuid="f749ae64-f827-4093-bd10-ce5271c3ca3a"
+   committed-rev="591"
+   kind="dir"
+   committed-date="2012-05-10T13:54:17.492844Z"/>
+<entry
+   name="test_light.c"
+   revision="665"
+   checksum="2fc4c3aa6166d223385e8291fc921bea"
+   last-author="hcx"
+   committed-rev="665"
+   text-time="2012-05-26T07:14:45.000000Z"
+   kind="file"
+   committed-date="2012-05-27T04:56:55.496000Z"/>
+</wc-entries>

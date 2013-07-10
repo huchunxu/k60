@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/common/ntshell_cmd"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="control_ntshell.c"
+   revision="926"
+   checksum="3752c5586c0578dce11779c948ba1037"
+   last-author="hcx"
+   committed-rev="926"
+   text-time="2012-10-18T21:19:33.000000Z"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="control_ntshell.h"
+   revision="647"
+   checksum="4676eb390163d46ed98d7b520e93d2c2"
+   last-author="hcx"
+   committed-rev="647"
+   text-time="2012-05-23T08:22:00.000000Z"
+   kind="file"
+   committed-date="2012-05-24T13:32:22.405000Z"/>
+<entry
+   name="decoder_ntshell.c"
+   revision="926"
+   checksum="40b7eed8d917b726c1a1f42165d8589a"
+   last-author="hcx"
+   committed-rev="926"
+   text-time="2012-10-18T16:16:43.000000Z"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="decoder_ntshell.h"
+   revision="630"
+   checksum="6bb34665ca2b6cd7cebdae38e54992b8"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:07:38.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="help_ntshell.c"
+   revision="711"
+   checksum="5a72e1b627694ec38ee3b9af8c760ba4"
+   last-author="hcx"
+   committed-rev="711"
+   text-time="2012-06-14T16:47:45.000000Z"
+   kind="file"
+   committed-date="2012-07-02T13:26:04.768000Z"/>
+<entry
+   name="help_ntshell.h"
+   revision="630"
+   checksum="fc0710062e9cff3d3ba0c20388dce283"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:07:45.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="light_ntshell.c"
+   revision="630"
+   checksum="6e9c23924c26bba9c5740f7a6cd78363"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:07:49.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="light_ntshell.h"
+   revision="630"
+   checksum="ec231685a937271137121a5aa4de6cbb"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:07:53.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="motor_ntshell.c"
+   revision="926"
+   checksum="6ac9b2826900883b1d5f5b784033bb21"
+   last-author="hcx"
+   committed-rev="926"
+   text-time="2012-10-18T21:20:02.000000Z"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="motor_ntshell.h"
+   revision="630"
+   checksum="d35d891b66627c03f491a227ffddd6d5"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:08:42.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="sd_ntshell.c"
+   revision="630"
+   checksum="bb8fe36594fdb035d574833809a35b8b"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:08:42.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="sd_ntshell.h"
+   revision="630"
+   checksum="9a7378393f4785a11920129bdf4e5d64"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:08:42.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="speaker_ntshell.c"
+   revision="630"
+   checksum="6eb916ba3a488331772bfb1e1962f726"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:08:42.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="speaker_ntshell.h"
+   revision="630"
+   checksum="7aa45a9feafe671059a78f291bbf923a"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:08:42.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="sram_ntshell.c"
+   revision="630"
+   checksum="2ff999265c171096b7b350d56e9bab27"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:08:42.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="sram_ntshell.h"
+   revision="630"
+   checksum="420dce26e80bb72689674066cb1c79c7"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:08:42.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="switch_ntshell.c"
+   revision="630"
+   checksum="405abfcdbcb9f9b21b4bec5bf2086bf1"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:08:42.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="switch_ntshell.h"
+   revision="630"
+   checksum="9a8359d9c6cc25fef65e66308578f65e"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:08:42.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="task_ntshell.c"
+   revision="630"
+   checksum="743564f1a6425f680686a88b3dc65b9b"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:08:43.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="task_ntshell.h"
+   revision="723"
+   checksum="f0afdee09e5b83c01fa366b670a49342"
+   last-author="hcx"
+   committed-rev="723"
+   text-time="2012-07-08T09:05:50.000000Z"
+   kind="file"
+   committed-date="2012-07-08T09:15:40.929000Z"/>
+</wc-entries>

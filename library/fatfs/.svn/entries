@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/fatfs"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="diskio.h"
+   checksum="5d2b10b822ab7bb14e84cdd4befd59df"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-06-13T06:42:56.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ff.c"
+   checksum="be81cef764194947ed030a9d3b7e7a3c"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-06-13T06:42:56.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ff.h"
+   checksum="57ec24590aa310581bbd9b638f3d813a"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-06-13T06:42:56.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ffconf.h"
+   checksum="5527d7f61e87cb6ff6a47315b4b817b7"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-04-26T08:40:39.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="integer.h"
+   checksum="7b821608c7f8f22e5c3d044ea9d6064a"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-06-13T06:42:56.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="option"
+   kind="dir"/>
+</wc-entries>

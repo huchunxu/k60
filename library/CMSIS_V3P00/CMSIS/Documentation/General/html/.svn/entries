@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/Documentation/General/html"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="CMSIS_Logo_Final.png"
+   checksum="2ccb5d01fed952ee6ce4b9b2083fd3d7"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:57.000000Z"/>
+<entry
+   name="CMSIS_V3_small.png"
+   checksum="4c8312ea4a0db3027a9e2e8ec95bae39"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:16.000000Z"/>
+<entry
+   name="bc_s.png"
+   checksum="5e5150e602570d27f89578c0c3f925b8"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:58.000000Z"/>
+<entry
+   name="closed.png"
+   checksum="b86c6f4907f4fc5a10694c3495ab759d"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:00.000000Z"/>
+<entry
+   name="cmsis.css"
+   checksum="c8c40a81e1f15eb79862d66fceb4a25b"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="doxygen.png"
+   checksum="1308b6e47c105a23f87d44820856e11f"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:22.000000Z"/>
+<entry
+   name="ftv2blank.png"
+   checksum="1388eb6157b6fa7d02df5275b2cf1679"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:56.000000Z"/>
+<entry
+   name="ftv2doc.png"
+   checksum="28004d04307b7cdfaa8bc6d91ba4f153"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:08.000000Z"/>
+<entry
+   name="ftv2folderclosed.png"
+   checksum="56740b34f27a12e6b8fbd8df473ccd3a"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:05.000000Z"/>
+<entry
+   name="ftv2folderopen.png"
+   checksum="9030566e42ce7f40e25af20bc82df0c5"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:23.000000Z"/>
+<entry
+   name="ftv2lastnode.png"
+   checksum="1388eb6157b6fa7d02df5275b2cf1679"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:28.000000Z"/>
+<entry
+   name="ftv2link.png"
+   checksum="28004d04307b7cdfaa8bc6d91ba4f153"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:07.000000Z"/>
+<entry
+   name="ftv2mlastnode.png"
+   checksum="c1585ccf097b0fd5439ceecd757b3a9b"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:23.000000Z"/>
+<entry
+   name="ftv2mnode.png"
+   checksum="c1585ccf097b0fd5439ceecd757b3a9b"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:19.000000Z"/>
+<entry
+   name="ftv2node.png"
+   checksum="1388eb6157b6fa7d02df5275b2cf1679"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:58.000000Z"/>
+<entry
+   name="ftv2plastnode.png"
+   checksum="e9561fa064410eb32c0b273a06ef5558"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:43.000000Z"/>
+<entry
+   name="ftv2pnode.png"
+   checksum="e9561fa064410eb32c0b273a06ef5558"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:13.000000Z"/>
+<entry
+   name="ftv2splitbar.png"
+   checksum="6e60f96206a2780b03319bce9fc302e7"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:51.000000Z"/>
+<entry
+   name="ftv2vertline.png"
+   checksum="1388eb6157b6fa7d02df5275b2cf1679"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:47.000000Z"/>
+<entry
+   name="index.html"
+   checksum="ed4519b304570ecc44d898a9817eca01"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="installdox"
+   checksum="682bfb22e0aab540f51a81ad25d1a109"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="jquery.js"
+   checksum="f75690f25e3347ded91834300278729b"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="nav_f.png"
+   checksum="0d76351b6560933b02d7cb7877f0199a"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:52.000000Z"/>
+<entry
+   name="nav_h.png"
+   checksum="fa55df91926234cb3a84a880f2b6593c"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:32.000000Z"/>
+<entry
+   name="navtree.css"
+   checksum="b3f1103e226a6e0c7312d3f577814fb5"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="navtree.js"
+   checksum="1fbb9057b016b9e08400d15aaa0e9482"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="open.png"
+   checksum="89b7c039fdfa803083989337312c177f"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:19.000000Z"/>
+<entry
+   name="resize.js"
+   checksum="b4ea0dba77d09696564ac971ae4bda3d"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="search"
+   kind="dir"/>
+<entry
+   name="tab_a.png"
+   checksum="ef2875e1c0d52fe9056617c2ba3ae713"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:20.000000Z"/>
+<entry
+   name="tab_b.png"
+   checksum="657cf13e55b800027fd46c17af02904c"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:35.000000Z"/>
+<entry
+   name="tab_h.png"
+   checksum="1c9eb453ee5d829a7f0aa78726d24b02"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:33.000000Z"/>
+<entry
+   name="tab_s.png"
+   checksum="f0f51e7aa35137cbc4e0c2d4d7f4eaf7"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:53:44.000000Z"/>
+<entry
+   name="tab_topnav.png"
+   checksum="97c9187890002ff3781f466df8400b79"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:18.000000Z"/>
+<entry
+   name="tabs.css"
+   checksum="52928ddabe5f437bd4d885708612646f"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-24T05:42:16.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

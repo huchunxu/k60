@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/DSP_Lib/Examples/arm_fft_bin_example"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ARM"
+   kind="dir"/>
+<entry
+   name="arm_fft_bin_data.c"
+   checksum="3dc238805db3a3115d7f991c37dcdb18"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:42.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_fft_bin_example_f32.c"
+   checksum="24e83804a2dfe800b6a8fd53b774b065"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:42.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

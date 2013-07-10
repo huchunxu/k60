@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="630"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/objs/app/test_board"
+   committed-rev="630"
+   kind="dir"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="test_cmos"
+   kind="dir"/>
+<entry
+   name="test_em"
+   kind="dir"/>
+</wc-entries>

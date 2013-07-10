@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="622"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/modules/signal"
+   committed-rev="622"
+   kind="dir"
+   committed-date="2012-05-19T04:55:21.266000Z"/>
+<entry
+   name="image_process.c"
+   revision="774"
+   checksum="06e6871be0470c7f8ac39c72d1128a4f"
+   last-author="hcx"
+   text-time="2012-07-25T08:23:58.000000Z"
+   committed-rev="774"
+   kind="file"
+   committed-date="2012-07-25T08:28:05.174000Z"/>
+<entry
+   name="image_process.h"
+   revision="637"
+   checksum="6cc2cff40e3ccc2fe6533e507225a29e"
+   last-author="hcx"
+   text-time="2012-05-22T06:10:26.000000Z"
+   committed-rev="637"
+   kind="file"
+   committed-date="2012-05-22T06:14:16.085000Z"/>
+<entry
+   name="mid_fil.c"
+   revision="926"
+   checksum="6c72b395018c544550b8144df9d03323"
+   last-author="hcx"
+   committed-rev="926"
+   text-time="2012-09-13T05:32:43.000000Z"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="mid_fil.h"
+   revision="774"
+   checksum="a6edc9859adfc998506559637480da3b"
+   last-author="hcx"
+   committed-rev="774"
+   text-time="2012-07-25T03:04:08.000000Z"
+   kind="file"
+   committed-date="2012-07-25T08:28:05.174000Z"/>
+<entry
+   name="otsu.c"
+   revision="773"
+   checksum="7de15327ac1467934c96bce78c4aa726"
+   last-author="hcx"
+   text-time="2012-07-25T01:51:56.000000Z"
+   committed-rev="773"
+   kind="file"
+   committed-date="2012-07-25T02:23:56.909000Z"/>
+<entry
+   name="otsu.h"
+   revision="773"
+   checksum="f02930ce21090108e376431d61f233aa"
+   last-author="hcx"
+   text-time="2012-07-25T01:40:00.000000Z"
+   committed-rev="773"
+   kind="file"
+   committed-date="2012-07-25T02:23:56.909000Z"/>
+</wc-entries>

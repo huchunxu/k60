@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/doc/design_doc"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="K60工具链的安装与配置Ver0.1--胡春旭.pdf"
+   checksum="6290f1b3b2867adccd78444d748294c3"
+   last-author="hcx"
+   text-time="2012-05-07T08:19:03.000000Z"
+   committed-rev="590"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:19.000000Z"/>
+<entry
+   name="K60的SD卡开发总结Ver0.2--胡春旭.pdf"
+   checksum="bcc41507cd333f2ffadb146fc91176bf"
+   last-author="hcx"
+   text-time="2012-05-07T13:59:59.000000Z"
+   committed-rev="590"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:04.000000Z"/>
+<entry
+   name="K60的底层开发总结.pdf"
+   revision="629"
+   checksum="09829b199c3362f82ce1a6a54e50a879"
+   last-author="hcx"
+   text-time="2012-05-19T13:22:27.000000Z"
+   committed-rev="629"
+   kind="file"
+   committed-date="2012-05-19T14:25:34.710000Z"
+   prop-time="2012-05-19T14:25:25.000000Z"/>
+<entry
+   name="Ubuntu12.04安装配置全记录.pdf"
+   revision="622"
+   checksum="84421c55e6ac63b7129954a73adb8223"
+   last-author="hcx"
+   committed-rev="622"
+   text-time="2012-05-19T04:31:29.000000Z"
+   kind="file"
+   committed-date="2012-05-19T04:55:21.266000Z"
+   prop-time="2012-05-19T04:55:13.000000Z"/>
+<entry
+   name="k60开发环境的安装与配置简介.pdf"
+   checksum="b9fb74a94370bc8e3391c6926a1313b0"
+   last-author="hcx"
+   text-time="2012-04-15T05:18:04.000000Z"
+   committed-rev="590"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"
+   prop-time="2012-05-10T02:54:00.000000Z"/>
+<entry
+   name="光电组引脚对照表.pdf"
+   revision="926"
+   checksum="1e908cacb300ae008a85c325cf70d827"
+   last-author="hcx"
+   committed-rev="926"
+   text-time="2012-10-17T08:15:57.000000Z"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"
+   prop-time="2012-07-02T13:25:57.000000Z"/>
+<entry
+   name="摄像头组引脚分配对照V0.1.pdf"
+   revision="630"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="摄像头组引脚对照表.pdf"
+   revision="630"
+   checksum="344f5fb82f061a4b777347b182197777"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T15:14:04.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"
+   prop-time="2012-05-20T06:36:59.000000Z"/>
+<entry
+   name="电磁组引脚分配表.xls"
+   revision="629"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="电磁组引脚对照表.pdf"
+   revision="630"
+   checksum="67b9ac5ad23a89e13d65675593887b94"
+   last-author="hcx"
+   text-time="2012-05-19T15:12:36.000000Z"
+   committed-rev="630"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"
+   prop-time="2012-05-19T14:25:25.000000Z"/>
+</wc-entries>

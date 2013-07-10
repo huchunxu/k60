@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/DSP_Lib/Examples/arm_graphic_equalizer_example/ARM"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0l_graphic_equalizer_example.uvopt"
+   checksum="7f22065aaac07129efac4f8f30962c1e"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0l_graphic_equalizer_example.uvproj"
+   checksum="a047caf9c1c6ebe92a9d1fd1abaf0544"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3l_graphic_equalizer_example.uvopt"
+   checksum="4217331544dbd0abe9f698890db75bf6"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3l_graphic_equalizer_example.uvproj"
+   checksum="5cc8268bbbb79d050e6697b08c76da7b"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4lf_graphic_equalizer_example.uvopt"
+   checksum="ab7d6b5eddc19cd6c2363caf5c8e8486"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4lf_graphic_equalizer_example.uvproj"
+   checksum="9eff9b69ad75bf9b3d3a856b41f0e205"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_graphic_equalizer_example.ini"
+   checksum="80016cd0cc9afdf3b9b5aee62aeba5be"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:44.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

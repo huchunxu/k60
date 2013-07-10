@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/modules/device"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="light.c"
+   revision="927"
+   checksum="4abd7555d68cac0eea3b0bf2dd4284eb"
+   last-author="hcx"
+   text-time="2012-10-25T07:00:11.000000Z"
+   committed-rev="927"
+   kind="file"
+   committed-date="2012-11-06T11:19:59.168000Z"/>
+<entry
+   name="light.h"
+   revision="927"
+   checksum="97efba2e0fcc6c8df6ac599fc9eb0835"
+   last-author="hcx"
+   text-time="2012-10-25T07:00:23.000000Z"
+   committed-rev="927"
+   kind="file"
+   committed-date="2012-11-06T11:19:59.168000Z"/>
+<entry
+   name="motor.c"
+   revision="926"
+   checksum="4c9136f6ccc482f730d1e5def2990e2e"
+   last-author="hcx"
+   text-time="2012-10-18T22:01:18.000000Z"
+   committed-rev="926"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="motor.h"
+   revision="926"
+   checksum="753f0e897389836bf2d459b175467eae"
+   last-author="hcx"
+   text-time="2012-10-20T16:17:39.000000Z"
+   committed-rev="926"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="motor_robot.c"
+   revision="926"
+   checksum="9ec9ce20b53bf6bacbabacc0b9960ca7"
+   last-author="hcx"
+   committed-rev="926"
+   text-time="2012-10-17T18:21:15.000000Z"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="motor_robot.h"
+   revision="926"
+   checksum="abb22d9ecd1e41ace5e558e7d7f1a8ca"
+   last-author="hcx"
+   committed-rev="926"
+   text-time="2012-10-17T17:21:53.000000Z"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="speaker.c"
+   revision="630"
+   checksum="fb5da8f5b055fb4db9d4cabb7515e2f7"
+   last-author="hcx"
+   text-time="2012-05-19T17:10:25.000000Z"
+   committed-rev="630"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="speaker.h"
+   revision="723"
+   checksum="74474ada90fa06a1656b97a8a2eaab91"
+   last-author="hcx"
+   text-time="2012-07-08T08:36:53.000000Z"
+   committed-rev="723"
+   kind="file"
+   committed-date="2012-07-08T09:15:40.929000Z"/>
+<entry
+   name="steer.c"
+   revision="927"
+   checksum="97892d483832d3b1bb1a8203a550d2d4"
+   last-author="hcx"
+   text-time="2012-10-24T20:16:50.000000Z"
+   committed-rev="927"
+   kind="file"
+   committed-date="2012-11-06T11:19:59.168000Z"/>
+<entry
+   name="steer.h"
+   revision="926"
+   checksum="5369e3e7dc45c5c350b5f24c93d70c6d"
+   last-author="hcx"
+   text-time="2012-10-18T18:02:23.000000Z"
+   committed-rev="926"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="switch.c"
+   revision="926"
+   checksum="d8f2eabbfd9a7d4c17a804a6592d903b"
+   last-author="hcx"
+   text-time="2012-10-23T06:11:42.000000Z"
+   committed-rev="926"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="switch.h"
+   revision="926"
+   checksum="76783d81976940d1732158900f6261e1"
+   last-author="hcx"
+   text-time="2012-10-23T03:25:26.000000Z"
+   committed-rev="926"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+</wc-entries>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/app/test_k60_target/test_ftm_pwm"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="test_ftm_pwm.c"
+   revision="647"
+   checksum="29f2c795cf96137f5f98db289cee40bd"
+   last-author="hcx"
+   committed-rev="647"
+   text-time="2012-05-24T05:08:53.000000Z"
+   kind="file"
+   committed-date="2012-05-24T13:32:22.405000Z"/>
+</wc-entries>

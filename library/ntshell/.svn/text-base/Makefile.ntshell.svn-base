@@ -1,0 +1,31 @@
+#
+# =====================================================================================
+#
+#       Filename:  Makefile.nt_shell
+#
+#    Description:  
+#
+#        Version:  0.1
+#        Created:  2011/11/14 16:03:02
+#
+#         Author:  Ren Wei , renweihust@gmail.com
+#        Company:  HUST-Renesas Lab
+#       Revision:  
+# =====================================================================================
+#	@0.1 	Ren Wei	2011/11/14	create orignal file
+# =====================================================================================
+#
+
+
+
+NT_SHELL_ROOT = $(SRCDIR)/demo/ntshell
+
+NT_SHELL_DIR = $(NT_SHELL_ROOT)
+
+NT_SHELL_COBJS := $(NT_SHELL_COBJS) ntlibc.o ntopt.o ntshell.o text_editor.o text_history.o vtparse.o vtparse_table.o
+
+SYSSVC_DIR := $(SYSSVC_DIR) $(NT_SHELL_DIR)
+SYSSVC_COBJS := $(SYSSVC_COBJS) $(NT_SHELL_COBJS)
+SYSSVC_CFLAGS := $(SYSSVC_CFLAGS) $(NT_SHELL_CFLAGS)
+
+INCLUDES := $(INCLUDES) -I$(NT_SHELL_ROOT)

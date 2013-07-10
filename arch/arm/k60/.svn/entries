@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/arch/arm/k60"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="analog"
+   kind="dir"/>
+<entry
+   name="clock"
+   kind="dir"/>
+<entry
+   name="comi"
+   kind="dir"/>
+<entry
+   name="core"
+   kind="dir"/>
+<entry
+   name="hmi"
+   kind="dir"/>
+<entry
+   name="memory"
+   kind="dir"/>
+<entry
+   name="security"
+   kind="dir"/>
+<entry
+   name="startup"
+   kind="dir"/>
+<entry
+   name="system"
+   kind="dir"/>
+<entry
+   name="timer"
+   kind="dir"/>
+</wc-entries>

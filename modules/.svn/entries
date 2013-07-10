@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="591"
+   last-author="hcx"
+   uuid="f749ae64-f827-4093-bd10-ce5271c3ca3a"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/modules"
+   committed-rev="591"
+   kind="dir"
+   committed-date="2012-05-10T13:54:17.492844Z"/>
+<entry
+   name="comm"
+   kind="dir"/>
+<entry
+   name="device"
+   kind="dir"/>
+<entry
+   name="sensor"
+   kind="dir"/>
+<entry
+   name="signal"
+   kind="dir"/>
+</wc-entries>

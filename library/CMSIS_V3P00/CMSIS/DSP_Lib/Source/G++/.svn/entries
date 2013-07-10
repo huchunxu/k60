@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/DSP_Lib/Source/G++"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0x_math.uvopt"
+   checksum="e7f8c1dba77d468acaea739a7c3c46c5"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:40.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0x_math.uvproj"
+   checksum="5f07166e0de82101d195d92bcbce6ba3"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:40.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3x_math.uvopt"
+   checksum="390b543485ff937e3fe5f3ffbf6a1c14"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:40.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3x_math.uvproj"
+   checksum="b6f12dfcc7ad83d88704da3fb3677bbd"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:40.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4x_math.uvopt"
+   checksum="f63aa2624a5b5012b5b3d641b0859c92"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:40.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4x_math.uvproj"
+   checksum="368cda99f42a8575f2b118abca8f6d4e"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:40.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexMx_math_Build.bat"
+   checksum="c761c75537bb7fe183f19b782c9ef4ce"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:40.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

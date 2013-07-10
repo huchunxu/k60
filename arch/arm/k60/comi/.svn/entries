@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/arch/arm/k60/comi"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="sd_rw.c"
+   revision="723"
+   checksum="c54247d89f0dc6d2b178754a05c4aa41"
+   last-author="hcx"
+   committed-rev="723"
+   text-time="2012-07-08T09:03:20.000000Z"
+   kind="file"
+   committed-date="2012-07-08T09:15:40.929000Z"
+   prop-time="2012-07-02T14:02:02.000000Z"/>
+<entry
+   name="sd_rw.h"
+   revision="712"
+   checksum="dea1a54b55b3910aa8b3f5e6905000a2"
+   last-author="hcx"
+   committed-rev="712"
+   text-time="2012-07-02T13:49:28.000000Z"
+   kind="file"
+   committed-date="2012-07-02T14:02:06.984000Z"
+   prop-time="2012-07-02T14:02:02.000000Z"/>
+<entry
+   name="sdhc.c"
+   revision="630"
+   checksum="f7e335db7255efa9bc463c05adff7cc0"
+   last-author="hcx"
+   text-time="2012-05-19T17:04:58.000000Z"
+   committed-rev="630"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="sdhc.h"
+   revision="630"
+   checksum="e7c3a48441d8b29389ab6fbc49cac037"
+   last-author="hcx"
+   text-time="2012-05-19T17:04:58.000000Z"
+   committed-rev="630"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="spi.c"
+   revision="723"
+   checksum="d34465c278f15e05e4130d959a181e6d"
+   last-author="hcx"
+   text-time="2012-07-08T01:27:35.000000Z"
+   committed-rev="723"
+   kind="file"
+   committed-date="2012-07-08T09:15:40.929000Z"/>
+<entry
+   name="spi.h"
+   revision="723"
+   checksum="57f94d24dc9c2a5373b9a356fbf186d4"
+   last-author="hcx"
+   text-time="2012-07-08T08:58:41.000000Z"
+   committed-rev="723"
+   kind="file"
+   committed-date="2012-07-08T09:15:40.929000Z"/>
+<entry
+   name="target_serial.c"
+   revision="926"
+   checksum="060aa00ca0d0861e35c69df6a1559011"
+   last-author="hcx"
+   text-time="2012-08-28T03:19:39.000000Z"
+   committed-rev="926"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="target_serial.h"
+   revision="926"
+   checksum="28e11fc17af5faf14ce21e3513ad8df5"
+   last-author="hcx"
+   text-time="2012-08-28T03:20:24.000000Z"
+   committed-rev="926"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+</wc-entries>

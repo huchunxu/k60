@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/modules/comm"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="SD_SendData.c"
+   revision="712"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="SD_SendData.h"
+   revision="712"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="SD_Sun.c"
+   revision="712"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="SD_Sun.h"
+   revision="712"
+   kind="file"
+   deleted="true"/>
+<entry
+   name="mmc.c"
+   revision="723"
+   checksum="03c1b1c5326ce961709c1a68e11f40cc"
+   last-author="hcx"
+   text-time="2012-07-08T09:03:05.000000Z"
+   committed-rev="723"
+   kind="file"
+   committed-date="2012-07-08T09:15:40.929000Z"/>
+<entry
+   name="sd.c"
+   revision="711"
+   checksum="a955d86678af136caf5841ed6fb87c26"
+   last-author="hcx"
+   text-time="2012-07-02T11:14:16.000000Z"
+   committed-rev="711"
+   kind="file"
+   committed-date="2012-07-02T13:26:04.768000Z"/>
+<entry
+   name="sd.h"
+   revision="630"
+   checksum="6b89840bbf7e42fbc24f92c4f0d2f845"
+   last-author="hcx"
+   text-time="2012-05-19T17:10:24.000000Z"
+   committed-rev="630"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="sd_send.c"
+   revision="712"
+   checksum="a23141d10c6ca907301d279f2996ccde"
+   last-author="hcx"
+   text-time="2012-07-02T13:58:47.000000Z"
+   committed-rev="712"
+   kind="file"
+   committed-date="2012-07-02T14:02:06.984000Z"
+   prop-time="2012-07-02T14:02:02.000000Z"/>
+<entry
+   name="sd_send.h"
+   revision="712"
+   checksum="7ea623c5a2d137109f5707c02ef53121"
+   last-author="hcx"
+   text-time="2012-07-02T02:50:04.000000Z"
+   committed-rev="712"
+   kind="file"
+   committed-date="2012-07-02T14:02:06.984000Z"
+   prop-time="2012-07-02T14:02:02.000000Z"/>
+<entry
+   name="serial.c"
+   revision="723"
+   checksum="99ad9450228ba47b5c96c0741e1be118"
+   last-author="hcx"
+   text-time="2012-07-08T09:07:14.000000Z"
+   committed-rev="723"
+   kind="file"
+   committed-date="2012-07-08T09:15:40.929000Z"/>
+<entry
+   name="serial.h"
+   revision="711"
+   checksum="d439ec5dcc41b5176e4f9e68e9d74178"
+   last-author="hcx"
+   text-time="2012-05-28T03:21:47.000000Z"
+   committed-rev="711"
+   kind="file"
+   committed-date="2012-07-02T13:26:04.768000Z"/>
+<entry
+   name="telecontrol.c"
+   revision="927"
+   checksum="67f4c61fa06fb5f0a93956cf1e1b356f"
+   last-author="hcx"
+   text-time="2012-10-24T21:24:11.000000Z"
+   committed-rev="927"
+   kind="file"
+   committed-date="2012-11-06T11:19:59.168000Z"/>
+<entry
+   name="telecontrol.h"
+   revision="927"
+   checksum="9ff8ab17ee56d261fdac09bfe652f122"
+   last-author="hcx"
+   text-time="2012-10-24T21:23:58.000000Z"
+   committed-rev="927"
+   kind="file"
+   committed-date="2012-11-06T11:19:59.168000Z"/>
+</wc-entries>

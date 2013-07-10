@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/arch/arm/k60/startup"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="start.S"
+   revision="926"
+   checksum="016359ecab4d3282417ff96d81162f82"
+   last-author="hcx"
+   committed-rev="926"
+   text-time="2012-10-19T03:40:15.000000Z"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+</wc-entries>

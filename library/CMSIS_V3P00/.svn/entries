@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="CMSIS"
+   kind="dir"/>
+<entry
+   name="Device"
+   kind="dir"/>
+<entry
+   name="Version 3.00"
+   checksum="d41d8cd98f00b204e9800998ecf8427e"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-01-12T05:59:18.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

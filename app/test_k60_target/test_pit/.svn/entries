@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/app/test_k60_target/test_pit"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="test_pit.c"
+   revision="665"
+   checksum="a155865301f7506e00a9089859cad62f"
+   last-author="hcx"
+   committed-rev="665"
+   text-time="2012-05-26T07:17:43.000000Z"
+   kind="file"
+   committed-date="2012-05-27T04:56:55.496000Z"/>
+</wc-entries>

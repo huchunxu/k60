@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/Include"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_common_tables.h"
+   checksum="9f26b0bb58880db2949c84d0492c9be8"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:46:08.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_math.h"
+   checksum="5ccd96373b839d0fde92eb3411854b30"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-04-06T11:50:27.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="core_cm0.h"
+   checksum="c7d914a9faa7ca35c365a2a821ff4944"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:46:08.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="core_cm3.h"
+   checksum="3bd89eae656a8e38ac073d8246c8bf36"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:46:08.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="core_cm4.h"
+   checksum="1738a993611bb32cdf9ead060112ef2c"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:46:08.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="core_cm4_simd.h"
+   checksum="2860ec041e6950f150c62a10dd2ae169"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:46:08.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="core_cmFunc.h"
+   checksum="212923a8314e37096059fb71a5d78c71"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:46:08.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="core_cmInstr.h"
+   checksum="9fe1c9b715033828ba4c19269069379d"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:46:08.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="core_sc000.h"
+   checksum="92a92413448a7a77b2a82264652dd9d4"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:46:08.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="core_sc300.h"
+   checksum="2b3e50f8cdfadb423403242dd6be1110"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:46:08.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

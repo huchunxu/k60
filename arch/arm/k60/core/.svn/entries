@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/arch/arm/k60/core"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="common.c"
+   revision="630"
+   checksum="091cd3eddc92ad0dc3e7caeb20c0d7c4"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:07:51.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="common.h"
+   revision="723"
+   checksum="08b70a1a06f633f0413dd30a76434615"
+   last-author="hcx"
+   committed-rev="723"
+   text-time="2012-07-08T08:33:38.000000Z"
+   kind="file"
+   committed-date="2012-07-08T09:15:40.929000Z"/>
+<entry
+   name="exception.c"
+   revision="630"
+   checksum="cd64885792c0a2e8850061597a29c291"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:07:51.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="exception.h"
+   revision="630"
+   checksum="ee1e87948f12b277f1639f4208f90def"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:07:51.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="sys_timer.c"
+   revision="927"
+   checksum="d224243e6076e22e477e8ac6d6a02acb"
+   last-author="hcx"
+   committed-rev="927"
+   text-time="2012-10-23T19:04:02.000000Z"
+   kind="file"
+   committed-date="2012-11-06T11:19:59.168000Z"/>
+<entry
+   name="sys_timer.h"
+   revision="630"
+   checksum="23ca05050df4edd6aba991de7803e8fa"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:06:29.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+</wc-entries>

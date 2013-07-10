@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/DSP_Lib/Examples/arm_convolution_example/ARM"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_convolution_example.ini"
+   checksum="21b0cfd33ecdc8f0945b42438cd2e4d2"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0l_convolution_example.uvopt"
+   checksum="b333156766ca6f58cd1c7ff1a5a9a374"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM0l_convolution_example.uvproj"
+   checksum="5152041fce36592de9ad0f56b64bc0f2"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3l_convolution_example.uvopt"
+   checksum="470c0b4ce455ce9ff21dada4a9b1c069"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM3l_convolution_example.uvproj"
+   checksum="91a896d270cccf99b6792ff35811213c"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4lf_convolution_example.uvopt"
+   checksum="d1e639c85c82a58de5f78239c42e0e55"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cortexM4lf_convolution_example.uvproj"
+   checksum="3240d3e78c6801a3138de46d35a002d9"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

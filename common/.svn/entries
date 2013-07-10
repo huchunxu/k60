@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/common"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ntshell_cmd"
+   kind="dir"/>
+<entry
+   name="target_libc.c"
+   revision="630"
+   checksum="9f446efc2754f99effb10c1302485d80"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:08:43.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="target_libc.h"
+   revision="723"
+   checksum="391850121216e1891bf2cbaae2ce13c4"
+   last-author="hcx"
+   committed-rev="723"
+   text-time="2012-07-08T09:06:54.000000Z"
+   kind="file"
+   committed-date="2012-07-08T09:15:40.929000Z"/>
+</wc-entries>

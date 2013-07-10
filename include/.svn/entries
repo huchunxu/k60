@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="591"
+   last-author="hcx"
+   uuid="f749ae64-f827-4093-bd10-ce5271c3ca3a"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/include"
+   committed-rev="591"
+   kind="dir"
+   committed-date="2012-05-10T13:54:17.492844Z"/>
+<entry
+   name="MK60N512VMD100.h"
+   revision="590"
+   checksum="639bbf845c9af6f0754cf5faf7c616d1"
+   last-author="hcx"
+   text-time="2011-12-30T11:53:04.000000Z"
+   committed-rev="590"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="t_devdef.h"
+   revision="927"
+   checksum="4d41360a860988bb8b09347673ca4fe4"
+   last-author="hcx"
+   text-time="2012-10-25T06:51:19.000000Z"
+   committed-rev="927"
+   kind="file"
+   committed-date="2012-11-06T11:19:59.168000Z"/>
+<entry
+   name="t_soudef.h"
+   revision="926"
+   checksum="1870404d249a493ab135889896ad4ac4"
+   last-author="hcx"
+   text-time="2012-10-18T16:11:39.000000Z"
+   committed-rev="926"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="t_stddef.h"
+   revision="630"
+   checksum="08515aa234f8365c39110e73db5397d8"
+   last-author="hcx"
+   text-time="2012-05-19T16:54:10.000000Z"
+   committed-rev="630"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+</wc-entries>

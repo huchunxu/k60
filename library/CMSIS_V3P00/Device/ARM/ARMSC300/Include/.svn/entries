@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/Device/ARM/ARMSC300/Include"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ARMSC300.h"
+   checksum="634b9dd0b4592adfeef00c39cfe22e99"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-01-30T05:23:40.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="system_ARMSC300.h"
+   checksum="339eb76ef7b1869b8ae2e5da4b9b53a5"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-01-30T23:57:46.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

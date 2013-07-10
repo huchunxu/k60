@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="596"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/app/electromagnetic_car"
+   committed-rev="596"
+   kind="dir"
+   committed-date="2012-05-11T08:09:53.108000Z"/>
+</wc-entries>

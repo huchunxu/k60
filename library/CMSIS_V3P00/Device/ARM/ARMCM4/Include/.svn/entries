@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/Device/ARM/ARMCM4/Include"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ARMCM4.h"
+   checksum="a7f4601780d55ccd29e694c18581dfaa"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-01-30T05:55:14.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="system_ARMCM4.h"
+   checksum="2c324c146c352a8d1c2c815b36aad4be"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-01-30T23:46:10.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

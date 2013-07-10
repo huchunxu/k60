@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/DSP_Lib/Source"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ARM"
+   kind="dir"/>
+<entry
+   name="BasicMathFunctions"
+   kind="dir"/>
+<entry
+   name="CommonTables"
+   kind="dir"/>
+<entry
+   name="ComplexMathFunctions"
+   kind="dir"/>
+<entry
+   name="ControllerFunctions"
+   kind="dir"/>
+<entry
+   name="FastMathFunctions"
+   kind="dir"/>
+<entry
+   name="FilteringFunctions"
+   kind="dir"/>
+<entry
+   name="G++"
+   kind="dir"/>
+<entry
+   name="GCC"
+   kind="dir"/>
+<entry
+   name="MatrixFunctions"
+   kind="dir"/>
+<entry
+   name="StatisticsFunctions"
+   kind="dir"/>
+<entry
+   name="SupportFunctions"
+   kind="dir"/>
+<entry
+   name="TransformFunctions"
+   kind="dir"/>
+</wc-entries>

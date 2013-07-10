@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/ntshell"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="Makefile.ntshell"
+   checksum="f6af2836cad00a573406f42837145016"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ntlibc.c"
+   checksum="d248513fc1a9e5b6a9a9566bcd40effd"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ntlibc.h"
+   checksum="aca466090a2f3ba0072cc2a3e748570f"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ntopt.c"
+   checksum="dacde7e1c99f156385de37639d3eb3aa"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-04-15T10:03:23.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ntopt.h"
+   checksum="94b86c7e43ee682e5474df1911c175ae"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ntshell.c"
+   checksum="bf9b2b42e0921888aa3bdc7f82b9289a"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-04-21T14:10:43.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="ntshell.h"
+   checksum="c955f7a40e6161080deccf6851e645ae"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="text_editor.c"
+   checksum="71940ea895cbee97c953c654b3949e14"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="text_editor.h"
+   checksum="035ae9a742dec38584a2db22b2937f01"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="text_history.c"
+   checksum="2202281d899444a0a11d162cb613bde5"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="text_history.h"
+   checksum="9072a465fd581ed1e1ac415647e74b77"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="vtparse.c"
+   checksum="392daf768df41188f37b21938d350c7e"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="vtparse.h"
+   checksum="84efbbd2fc273bac1cfd8f1ac88a0d0f"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="vtparse_table.c"
+   checksum="8af2a8384c618f2401eeb8f5bebdba09"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="vtparse_table.h"
+   checksum="2e726e4aebea7021410c17d5fdd1136d"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T02:41:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/Device/ARM/ARMSC000/Source/G++"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="gcc_cs.ld"
+   checksum="6a2dcc294b129f59c6907c6a8d636a60"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-01T02:49:00.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="startup_ARMSC000.s"
+   checksum="ee43c46d5830e088af2a608ae4d4aa66"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-01T02:41:08.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

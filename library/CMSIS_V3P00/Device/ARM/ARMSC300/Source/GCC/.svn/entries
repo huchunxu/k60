@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/Device/ARM/ARMSC300/Source/GCC"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="gcc_arm.ld"
+   checksum="ac6681913cacc4cc33a0ea4dad8f3f6c"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-08T23:44:12.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="startup_ARMSC300.S"
+   checksum="cf0f99e306e8d8c836ee7b7740c4029c"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-08T23:44:30.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

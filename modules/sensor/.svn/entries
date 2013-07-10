@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="591"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/modules/sensor"
+   uuid="f749ae64-f827-4093-bd10-ce5271c3ca3a"
+   committed-rev="591"
+   kind="dir"
+   committed-date="2012-05-10T13:54:17.492844Z"/>
+<entry
+   name="accelerometer.c"
+   revision="630"
+   checksum="a5699e731fc49941e6839fc66d106ce4"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:10:25.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="accelerometer.h"
+   revision="723"
+   checksum="e32a381c993da10bdd1427896e6c6172"
+   last-author="hcx"
+   committed-rev="723"
+   text-time="2012-07-08T08:49:22.000000Z"
+   kind="file"
+   committed-date="2012-07-08T09:15:40.929000Z"/>
+<entry
+   name="decoder.c"
+   revision="927"
+   checksum="712e1b36e4c87f444cf44a24d11cd48a"
+   last-author="hcx"
+   committed-rev="927"
+   text-time="2012-10-23T18:52:58.000000Z"
+   kind="file"
+   committed-date="2012-11-06T11:19:59.168000Z"/>
+<entry
+   name="decoder.h"
+   revision="927"
+   checksum="4fbb32e5f8a31610399c567103020898"
+   last-author="hcx"
+   committed-rev="927"
+   text-time="2012-10-23T18:44:22.000000Z"
+   kind="file"
+   committed-date="2012-11-06T11:19:59.168000Z"/>
+<entry
+   name="gyro.c"
+   revision="630"
+   checksum="1c08928fa258bafe254fb3fc3067157e"
+   last-author="hcx"
+   committed-rev="630"
+   text-time="2012-05-19T17:10:26.000000Z"
+   kind="file"
+   committed-date="2012-05-20T06:59:46.472000Z"/>
+<entry
+   name="gyro.h"
+   revision="723"
+   checksum="c3ed641dc5dfa82cebebc4a25cddcc76"
+   last-author="hcx"
+   committed-rev="723"
+   text-time="2012-07-08T08:53:21.000000Z"
+   kind="file"
+   committed-date="2012-07-08T09:15:40.929000Z"/>
+<entry
+   name="infrared.c"
+   revision="926"
+   checksum="d7887dcef61eb38694e6e7362962706d"
+   last-author="hcx"
+   committed-rev="926"
+   text-time="2012-10-18T18:35:22.000000Z"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+<entry
+   name="infrared.h"
+   revision="926"
+   checksum="e8a92dc8c1d907bd6b06e299d10e60b3"
+   last-author="hcx"
+   committed-rev="926"
+   text-time="2012-10-18T18:35:59.000000Z"
+   kind="file"
+   committed-date="2012-10-23T07:37:48.595000Z"/>
+</wc-entries>

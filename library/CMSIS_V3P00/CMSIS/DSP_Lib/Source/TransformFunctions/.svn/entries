@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/CMSIS/DSP_Lib/Source/TransformFunctions"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cfft_radix4_f32.c"
+   checksum="67b60ddd6852af8be0e2f35627e1d776"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:34.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cfft_radix4_init_f32.c"
+   checksum="60fed3d7389bd13c6cce1e8e93f980f0"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:36.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cfft_radix4_init_q15.c"
+   checksum="c61c4ba021ba80aa9fe8576406506bbb"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:34.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cfft_radix4_init_q31.c"
+   checksum="6d2253ba94f77e9d02416fc10ff57ac7"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:34.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cfft_radix4_q15.c"
+   checksum="d5ac3ac0c162e01fc96cb6f282427baf"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:36.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_cfft_radix4_q31.c"
+   checksum="8909a3a71e48201a3001330a7c97d0df"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:34.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_dct4_f32.c"
+   checksum="0c216a55ed394df6f156a7967c580975"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:34.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_dct4_init_f32.c"
+   checksum="1239b1261dcfe5a498e2efa1a3ba05d3"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:36.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_dct4_init_q15.c"
+   checksum="e125034bb8e9e42e1b256523b638b3d4"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:34.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_dct4_init_q31.c"
+   checksum="4fa368c6c8d029bf1339bd59f9f52ef3"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:34.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_dct4_q15.c"
+   checksum="99010dfa1b8fb234f2a8c955976d81a2"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:36.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_dct4_q31.c"
+   checksum="1275b28b0560942445d4912c7283481a"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:34.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_rfft_f32.c"
+   checksum="991ac1bf27b9e57cd89a526308f1855a"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:34.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_rfft_init_f32.c"
+   checksum="4ad5b7cabbbff9bf7745e41ba9432117"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:36.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_rfft_init_q15.c"
+   checksum="29b0d56ab11e77cbc2488adc80594b50"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:34.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_rfft_init_q31.c"
+   checksum="2286ce943a0d199c61959ed3cc2705da"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:34.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_rfft_q15.c"
+   checksum="f5071d397108890f1657b681727d26f0"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:36.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="arm_rfft_q31.c"
+   checksum="436f022d235743e5d7092cdbb26b45d3"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2012-02-16T02:47:36.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/temp"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="monitor.c"
+   checksum="8e1f8caeb388d1015a61e9c3a0b41d59"
+   last-author="hcx"
+   text-time="2011-06-13T06:42:56.000000Z"
+   committed-rev="590"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="monitor.h"
+   checksum="9f3e4903f0e8951a9907eb8cbc915981"
+   last-author="hcx"
+   text-time="2011-06-13T06:42:56.000000Z"
+   committed-rev="590"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="uart.c"
+   revision="711"
+   checksum="8e57954a7b824600ced684d555431532"
+   last-author="hcx"
+   text-time="2012-05-28T01:58:48.000000Z"
+   committed-rev="711"
+   kind="file"
+   committed-date="2012-07-02T13:26:04.768000Z"/>
+<entry
+   name="uart.h"
+   checksum="fe2de00874732cf75a3d19dd0ee19690"
+   last-author="hcx"
+   text-time="2012-04-13T03:05:32.000000Z"
+   committed-rev="590"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

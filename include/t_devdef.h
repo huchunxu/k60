@@ -1,0 +1,187 @@
+/*
+ * =====================================================================================
+ *        COPYRIGHT NOTICE
+ *        Copyright (c) 2012  HUST-Renesas Lab
+ *        ALL rights reserved.
+ *//**        
+ *        @file     t_devdef.h
+ *
+ *        @brief    单片机资源定义
+ *
+ *        @version  0.1
+ *        @date     2012/7/7 16:26
+ *
+ *        @author:  Hu Chunxu , hcx196@gmail.com
+ *//* ==================================================================================
+ *  @0.1    Hu Chunxu   2012/7/7   create orignal file
+ * =====================================================================================
+ */
+
+#ifndef T_DEVDEF_H_
+#define T_DEVDEF_H_
+
+#include "t_soudef.h"
+
+/**
+ *  light定义
+ */
+/* 摄像头组 */
+//#define  LIGHT0_PIN    PTB5
+//#define  LIGHT1_PIN    PTB9
+//#define  LIGHT2_PIN    PTB8
+//#define  LIGHT3_PIN    PTB11
+//#define  LIGHT4_PIN    PTB10
+//#define  LIGHT5_PIN    PTB16
+//#define  LIGHT6_PIN    PTB17
+//#define  LIGHT7_PIN    PTB20
+//#define  LIGHT8_PIN    PTC11
+
+/* 光电组 */
+#define  LIGHT0_PIN    PTC19
+#define  LIGHT1_PIN    PTE7
+#define  LIGHT2_PIN    PTE9
+#define  LIGHT3_PIN    PTE8
+#define  LIGHT4_PIN    PTE4
+#define  LIGHT5_PIN    PTD15
+#define  LIGHT6_PIN    PTD14
+#define  LIGHT7_PIN    PTD13
+#define  LIGHT8_PIN    PTC11
+
+#define  LIGHT_BAR0_PIN  PTD14
+#define  LIGHT_BAR1_PIN  PTD13
+
+/**
+ *  speaker定义
+ */
+/* 摄像头组 */
+#define   SPEAKER0_PIN   PTC10
+#define   SPEAKER1_PIN   PTA12
+
+/**
+ *  switch定义
+ */
+/* 摄像头组 */
+//#define   SWITCH_START0_PIN    PTC3
+//#define   SWITCH_START1_PIN    PTD4
+//#define   SWITCH0_PIN          PTE11
+//#define   SWITCH1_PIN          PTE9
+//#define   SWITCH2_PIN          PTE10
+//#define   SWITCH3_PIN          PTE7
+//#define   SWITCH4_PIN          PTE8
+//#define   SWITCH5_PIN          PTE5
+//#define   SWITCH6_PIN          PTE6
+//#define   SWITCH7_PIN          PTE4
+//#define   SWITCH8_PIN          PTD4
+
+/* 光电组 */
+#define   SWITCH0_PIN          PTE28
+#define   SWITCH1_PIN          PTA6
+#define   SWITCH2_PIN          PTA7
+#define   SWITCH3_PIN          PTA9
+
+
+/**
+ * infrared 定义
+ */
+#define   INFRARED0_PIN        PTB10
+#define   INFRARED1_PIN        PTB6
+#define   INFRARED2_PIN        PTB2
+#define   INFRARED3_PIN        PTA28
+#define   INFRARED4_PIN        PTB4
+#define   INFRARED5_PIN        PTB8
+
+#define   INFRARED6_PIN        PTA12
+#define   INFRARED7_PIN        PTA14
+#define   INFRARED8_PIN        PTE11
+#define   INFRARED9_PIN        PTE10
+#define   INFRARED10_PIN       PTE12
+#define   INFRARED11_PIN       PTE26
+
+
+/**
+ *  motor定义
+ */
+/* 摄像头组 */
+//#define   MOTOR0_PIN              FTM1_CH0
+//#define   MOTOR1_PIN              FTM1_CH1
+//#define   MOTOR0_DIRECTION_PIN    PTA12
+
+/* 光电组 */
+#define   MOTOR_LEFT_PIN               FTM0_CH1
+#define   MOTOR_RIGHT_PIN              FTM0_CH0
+#define   MOTOR_LEFT_DIRECTION_PIN     PTE4
+#define   MOTOR_RIGHT_DIRECTION_PIN    PTA8
+
+/**
+ *  motor_robot定义
+ */
+#define   MOTOR0_ROBOT_PIN        FTM0_CH5
+#define   MOTOR1_ROBOT_PIN        FTM0_CH3
+#define   MOTOR2_ROBOT_PIN        FTM0_CH0
+#define   MOTOR3_ROBOT_PIN        FTM1_CH0
+
+#define   MOTOR0_DIR_INA_PIN      PTD13
+#define   MOTOR0_DIR_INB_PIN      PTD14
+#define   MOTOR1_DIR_INC_PIN      PTD15
+#define   MOTOR1_DIR_IND_PIN      PTE4
+#define   MOTOR2_DIR_INA_PIN      PTE8
+#define   MOTOR2_DIR_INB_PIN      PTE9
+#define   MOTOR3_DIR_INC_PIN      PTE7
+#define   MOTOR3_DIR_IND_PIN      PTE5
+
+/** 
+ * steer定义
+ */
+/* 摄像头组 */
+#define   STEER_DIR_PIN       FTM0_CH0
+#define   STEER_SERVO_PIN     FTM0_CH3
+
+/** 
+ * 加速度传感器的定义
+ */
+#define   ACC0_PIN       ADC1_CH5
+#define   ACC1_PIN       ADC1_CH6
+
+/** 
+ * 陀螺仪的定义
+ */
+#define   GYRO0_PIN      ADC1_CH7
+#define   GYRO1_PIN      ADC1_CH8
+
+/** 
+ * 编码器的定义
+ */
+/* 摄像头组 电磁组 */
+//#define   DECODER0_MOD      FTM2
+//#define   DECODER1_MOD      FTM1
+//
+//#define   DECODER0_PIN_DEF  PTB18_19
+//#define   DECODER0_CNT_PTR  FTM2_BASE_PTR
+
+/* 光电组 */
+#define   DECODER0_MOD      LPTMR
+
+#define   DECODER0_PIN_DEF  LPTMR_CAPTURE_PIN
+#define   DECODER0_CNT_PTR  LPTMR0_BASE_PTR
+
+/** 
+ * 红外接受器的定义
+ */
+#define   TELECTRLA_PIN      PTD13
+#define   TELECTRLB_PIN      PTD15
+
+/**
+ *   SD卡的定义
+ */
+#define SD_SPI_NO         SPI0
+#define SD_CS_PIN         PTA13
+#define SD_MISO_PIN       PTA17
+#define SD_MOSI_PIN       PTA16
+#define SD_SCK_PIN        PTA15
+
+/**
+ *   串口的定义
+ */
+#define  UART_NO     UART4
+
+#endif /* T_DEVDEF_H_ */

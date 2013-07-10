@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/library/CMSIS_V3P00/Device/_Template_Vendor/Vendor/Device/Include"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="Device.h"
+   checksum="a91f34eb62258adca187b53bd1c09c83"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T05:42:22.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="system_Device.h"
+   checksum="bec8769ba4bad2e73c41276ab9d82f18"
+   last-author="hcx"
+   committed-rev="590"
+   text-time="2011-12-19T03:27:58.000000Z"
+   kind="file"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+</wc-entries>

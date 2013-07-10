@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="596"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/app/laser_car"
+   committed-rev="596"
+   kind="dir"
+   committed-date="2012-05-11T08:09:53.108000Z"/>
+<entry
+   name="laser_car.c"
+   revision="927"
+   checksum="c3abb84d7f8836efd9cf9e36fc7dd597"
+   last-author="hcx"
+   committed-rev="927"
+   text-time="2012-10-25T09:06:57.000000Z"
+   kind="file"
+   committed-date="2012-11-06T11:19:59.168000Z"/>
+</wc-entries>

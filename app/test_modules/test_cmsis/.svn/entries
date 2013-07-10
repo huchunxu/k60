@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   name=""
+   repos="http://115.156.219.42/trac/svn/repo"
+   revision="590"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/app/test_modules/test_cmsis"
+   committed-rev="590"
+   kind="dir"
+   committed-date="2012-05-10T02:59:53.496000Z"/>
+<entry
+   name="test_cmsis.c"
+   revision="647"
+   checksum="b9aad4a6ee88c3e5eb9374867aebbcb9"
+   last-author="hcx"
+   text-time="2012-05-23T08:26:16.000000Z"
+   committed-rev="647"
+   kind="file"
+   committed-date="2012-05-24T13:32:22.405000Z"/>
+</wc-entries>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   repos="http://115.156.219.42/trac/svn/repo"
+   name=""
+   revision="772"
+   last-author="hcx"
+   url="http://115.156.219.42/trac/svn/repo/software/Hust_k60/k60/app/test_modules/test_image_mid_fil"
+   committed-rev="772"
+   kind="dir"
+   committed-date="2012-07-24T02:40:04.475000Z"/>
+<entry
+   name="test_image_mid_fil.c"
+   revision="774"
+   checksum="e649c182ba1bce055c60a85c35c4e6e9"
+   last-author="hcx"
+   committed-rev="774"
+   text-time="2012-07-25T02:32:29.000000Z"
+   kind="file"
+   committed-date="2012-07-25T08:28:05.174000Z"/>
+</wc-entries>
