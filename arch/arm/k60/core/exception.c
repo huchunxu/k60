@@ -14,6 +14,7 @@
  *        @author   Ren Wei , renweihust@gmail.com
  *//* ==================================================================================
  *  @0.1    Ren Wei 2011/12/30  create orignal file
+ *  @0.2    Hu Chunxu 2013/7/15 修改了中断优先级寄存器错误
  * =====================================================================================
  */
 #include "exception.h"
@@ -169,7 +170,6 @@ void nmi_handler(void)
 	while(1);
 }
 
-
 /**
  * @brief 
  */
@@ -178,7 +178,6 @@ void hard_fault_handler(void)
 	while(1);
 }
 
-
 /**
  * @brief 
  */
@@ -186,7 +185,6 @@ void default_exc_handler(void)
 {
 	while(1);
 }
-
 
 /**
  * @brief install an exception handler
@@ -199,7 +197,6 @@ void exc_install(uint32_t excno, FP exchdr)
 	 *(((FP*)vector_table) + excno) = exchdr;
 }
 
-
 /**
  * @brief set the priority of exception
  *
@@ -208,12 +205,25 @@ void exc_install(uint32_t excno, FP exchdr)
  */
 void exc_set_pri(uint32_t excno, uint8_t pri)
 {
-	if (excno <= 15 && excno >= 4) {	/* system excepitons */
-		*((volatile uint8_t *)(0xE000ED18 + excno)) = (pri & 0xF) << 4;
-	}	
-	else if (excno > 15) {	/* target define exceptions */
-		NVIC_IP(excno) = (pri & 0xF) << 4;
-	}
+//	if (excno <= 15 && excno >= 4) {	/* system excepitons */
+//		*((volatile uint8_t *)(0xE000ED18 + excno)) = (pri & 0xF) << 4;
+//	}
+//	else if (excno > 15) {	/* target define exceptions */
+//		NVIC_IP(excno) = (pri & 0xF) << 4;
+//	}
+
+    /*irq priority pointer*/
+    uint8_t *prio_reg;
+    int irq= excno-16;
+
+    //确定irq号和优先级有效
+    if (irq > 91)	irq = 91;
+    if (pri > 15)	pri = 15;
+
+    /* Determine which of the NVICIPx corresponds to the irq */
+    prio_reg = (uint8_t *)(((uint32_t)&NVICIP0) + irq);
+    /* Assign priority to IRQ */
+    *prio_reg = ( (pri&0xF) << (8 - ARM_INTERRUPT_LEVEL_BITS));
 }
 
 
@@ -269,9 +279,7 @@ void exc_enable(uint32_t excno)
 				break;
 		}
 	}/* end else */
-	
 }
-
 
 /**
  * @brief disable exception
@@ -293,15 +301,13 @@ void exc_disable(uint32_t excno)
 		switch (div)
     	{
     		case 0x0:
-              NVICISER0 = 1 << bits;
+              NVICICER0 = 1 << bits;
               break;
     		case 0x1:
-              NVICISER1 = 1 << bits;
+              NVICICER1 = 1 << bits;
               break;
     		case 0x2:
-              NVICISER2 = 1 << bits;
-			case 0x3:
-              NVICISER3 = 1 << bits; 
+              NVICICER2 = 1 << bits;
               break;
     	}
 	}
@@ -329,8 +335,6 @@ void exc_set_vector(void * vector)
 {
 	SCB_VTOR = (uint32_t)vector;
 }
-
-
 
 /**
  * @brief init exceptions

@@ -22,6 +22,9 @@
 
 #include "common.h"
 
+
+#define  ARM_INTERRUPT_LEVEL_BITS  4  //中断等级
+
 /**
  * @brief set faultmask
  *

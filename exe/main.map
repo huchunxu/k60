@@ -1288,7 +1288,7 @@ END GROUP
                 0x00000000                init_vector
                 0x00000410                . = ALIGN (0x4)
 
-.text           0x00000410     0x26cc
+.text           0x00000410     0x26a8
  CREATE_OBJECT_SYMBOLS
                 0x00000410                __cs3_reset = .
  *(.text .text.* .gnu.linkonce.t.*)
@@ -1361,138 +1361,138 @@ END GROUP
                 0x00000e88       0x28 objs/arch/arm/k60/core/exception.o
                 0x00000e88                exc_install
  .text.exc_set_pri
-                0x00000eb0       0x58 objs/arch/arm/k60/core/exception.o
+                0x00000eb0       0x50 objs/arch/arm/k60/core/exception.o
                 0x00000eb0                exc_set_pri
  .text.exc_enable
-                0x00000f08      0x128 objs/arch/arm/k60/core/exception.o
-                0x00000f08                exc_enable
+                0x00000f00      0x128 objs/arch/arm/k60/core/exception.o
+                0x00000f00                exc_enable
  .text.exc_disable
-                0x00001030       0xe8 objs/arch/arm/k60/core/exception.o
-                0x00001030                exc_disable
+                0x00001028       0xcc objs/arch/arm/k60/core/exception.o
+                0x00001028                exc_disable
  .text.exc_set_vector
-                0x00001118       0x1c objs/arch/arm/k60/core/exception.o
-                0x00001118                exc_set_vector
+                0x000010f4       0x1c objs/arch/arm/k60/core/exception.o
+                0x000010f4                exc_set_vector
  .text.exc_init
-                0x00001134       0x68 objs/arch/arm/k60/core/exception.o
-                0x00001134                exc_init
+                0x00001110       0x68 objs/arch/arm/k60/core/exception.o
+                0x00001110                exc_init
  .text.sys_timer_init
-                0x0000119c       0x5c objs/arch/arm/k60/core/sys_timer.o
-                0x0000119c                sys_timer_init
+                0x00001178       0x5c objs/arch/arm/k60/core/sys_timer.o
+                0x00001178                sys_timer_init
  .text.sys_timer_handler
-                0x000011f8       0x2c objs/arch/arm/k60/core/sys_timer.o
-                0x000011f8                sys_timer_handler
+                0x000011d4       0x2c objs/arch/arm/k60/core/sys_timer.o
+                0x000011d4                sys_timer_handler
  .text.gpio_get_port_addr
-                0x00001224       0x80 objs/arch/arm/k60/hmi/gpio.o
-                0x00001224                gpio_get_port_addr
+                0x00001200       0x80 objs/arch/arm/k60/hmi/gpio.o
+                0x00001200                gpio_get_port_addr
  .text.gpio_get_pt_addr
-                0x000012a4       0x80 objs/arch/arm/k60/hmi/gpio.o
-                0x000012a4                gpio_get_pt_addr
+                0x00001280       0x80 objs/arch/arm/k60/hmi/gpio.o
+                0x00001280                gpio_get_pt_addr
  .text.gpio_init
-                0x00001324       0xac objs/arch/arm/k60/hmi/gpio.o
-                0x00001324                gpio_init
+                0x00001300       0xac objs/arch/arm/k60/hmi/gpio.o
+                0x00001300                gpio_init
  .text.gpio_set
-                0x000013d0       0x54 objs/arch/arm/k60/hmi/gpio.o
-                0x000013d0                gpio_set
+                0x000013ac       0x54 objs/arch/arm/k60/hmi/gpio.o
+                0x000013ac                gpio_set
  .text.get_ftmptr
-                0x00001424       0x5c objs/arch/arm/k60/timer/ftm_pwm.o
+                0x00001400       0x5c objs/arch/arm/k60/timer/ftm_pwm.o
  .text.get_portptr
-                0x00001480       0x70 objs/arch/arm/k60/timer/ftm_pwm.o
+                0x0000145c       0x70 objs/arch/arm/k60/timer/ftm_pwm.o
  .text.port_init
-                0x000014f0       0x80 objs/arch/arm/k60/timer/ftm_pwm.o
+                0x000014cc       0x80 objs/arch/arm/k60/timer/ftm_pwm.o
  .text.pwm_mod0_set
-                0x00001570       0x80 objs/arch/arm/k60/timer/ftm_pwm.o
+                0x0000154c       0x80 objs/arch/arm/k60/timer/ftm_pwm.o
  .text.pwm_mod1_set
-                0x000015f0       0x80 objs/arch/arm/k60/timer/ftm_pwm.o
+                0x000015cc       0x80 objs/arch/arm/k60/timer/ftm_pwm.o
  .text.pwm_mod2_set
-                0x00001670       0x80 objs/arch/arm/k60/timer/ftm_pwm.o
+                0x0000164c       0x80 objs/arch/arm/k60/timer/ftm_pwm.o
  .text.ftm_pwm_init
-                0x000016f0      0x180 objs/arch/arm/k60/timer/ftm_pwm.o
-                0x000016f0                ftm_pwm_init
+                0x000016cc      0x180 objs/arch/arm/k60/timer/ftm_pwm.o
+                0x000016cc                ftm_pwm_init
  .text.ftm_pwm_output
-                0x00001870       0x78 objs/arch/arm/k60/timer/ftm_pwm.o
-                0x00001870                ftm_pwm_output
+                0x0000184c       0x78 objs/arch/arm/k60/timer/ftm_pwm.o
+                0x0000184c                ftm_pwm_output
  .text.lptmr_pulse_capture_init
-                0x000018e8       0xe8 objs/arch/arm/k60/timer/lptmr.o
-                0x000018e8                lptmr_pulse_capture_init
+                0x000018c4       0xe8 objs/arch/arm/k60/timer/lptmr.o
+                0x000018c4                lptmr_pulse_capture_init
  .text.lptmr_registers_clear
-                0x000019d0       0x28 objs/arch/arm/k60/timer/lptmr.o
+                0x000019ac       0x28 objs/arch/arm/k60/timer/lptmr.o
  .text.serial_initialize
-                0x000019f8       0x60 objs/modules/comm/serial.o
-                0x000019f8                serial_initialize
+                0x000019d4       0x60 objs/modules/comm/serial.o
+                0x000019d4                serial_initialize
  .text.serial_opn_por
-                0x00001a58       0xdc objs/modules/comm/serial.o
-                0x00001a58                serial_opn_por
+                0x00001a34       0xdc objs/modules/comm/serial.o
+                0x00001a34                serial_opn_por
  .text.serial_snd_chr
-                0x00001b34       0x44 objs/modules/comm/serial.o
+                0x00001b10       0x44 objs/modules/comm/serial.o
  .text.sio_irdy_snd
-                0x00001b78       0xbc objs/modules/comm/serial.o
-                0x00001b78                sio_irdy_snd
+                0x00001b54       0xbc objs/modules/comm/serial.o
+                0x00001b54                sio_irdy_snd
  .text.sio_irdy_rcv
-                0x00001c34      0x194 objs/modules/comm/serial.o
-                0x00001c34                sio_irdy_rcv
+                0x00001c10      0x194 objs/modules/comm/serial.o
+                0x00001c10                sio_irdy_rcv
  .text.light_init
-                0x00001dc8       0x94 objs/modules/device/light.o
-                0x00001dc8                light_init
+                0x00001da4       0x94 objs/modules/device/light.o
+                0x00001da4                light_init
  .text.light_open_port
-                0x00001e5c       0xa8 objs/modules/device/light.o
+                0x00001e38       0xa8 objs/modules/device/light.o
  .text.light_open
-                0x00001f04       0x9c objs/modules/device/light.o
-                0x00001f04                light_open
+                0x00001ee0       0x9c objs/modules/device/light.o
+                0x00001ee0                light_open
  .text.motor_init
-                0x00001fa0       0xb4 objs/modules/device/motor.o
-                0x00001fa0                motor_init
+                0x00001f7c       0xb4 objs/modules/device/motor.o
+                0x00001f7c                motor_init
  .text.motor_open_port
-                0x00002054       0x90 objs/modules/device/motor.o
+                0x00002030       0x90 objs/modules/device/motor.o
  .text.motor_output
-                0x000020e4       0xe0 objs/modules/device/motor.o
-                0x000020e4                motor_output
+                0x000020c0       0xe0 objs/modules/device/motor.o
+                0x000020c0                motor_output
  .text.motor_output_dir_fw
-                0x000021c4       0x40 objs/modules/device/motor.o
-                0x000021c4                motor_output_dir_fw
+                0x000021a0       0x40 objs/modules/device/motor.o
+                0x000021a0                motor_output_dir_fw
  .text.motor_output_dir_bw
-                0x00002204       0x40 objs/modules/device/motor.o
-                0x00002204                motor_output_dir_bw
+                0x000021e0       0x40 objs/modules/device/motor.o
+                0x000021e0                motor_output_dir_bw
  .text.steer_init
-                0x00002244       0xd0 objs/modules/device/steer.o
-                0x00002244                steer_init
+                0x00002220       0xd0 objs/modules/device/steer.o
+                0x00002220                steer_init
  .text.steer_open_port
-                0x00002314       0x88 objs/modules/device/steer.o
+                0x000022f0       0x88 objs/modules/device/steer.o
  .text.steer_output_angle
-                0x0000239c      0x140 objs/modules/device/steer.o
-                0x0000239c                steer_output_angle
+                0x00002378      0x140 objs/modules/device/steer.o
+                0x00002378                steer_output_angle
  .text.switch_init
-                0x000024dc       0xc4 objs/modules/device/switch.o
-                0x000024dc                switch_init
+                0x000024b8       0xc4 objs/modules/device/switch.o
+                0x000024b8                switch_init
  .text.switch_open_port
-                0x000025a0       0x90 objs/modules/device/switch.o
+                0x0000257c       0x90 objs/modules/device/switch.o
  .text.decoder_init
-                0x00002630       0x58 objs/modules/sensor/decoder.o
-                0x00002630                decoder_init
+                0x0000260c       0x58 objs/modules/sensor/decoder.o
+                0x0000260c                decoder_init
  .text.decoder_open_port
-                0x00002688       0x74 objs/modules/sensor/decoder.o
+                0x00002664       0x74 objs/modules/sensor/decoder.o
  .text.decoder_read
-                0x000026fc       0x74 objs/modules/sensor/decoder.o
-                0x000026fc                decoder_read
+                0x000026d8       0x74 objs/modules/sensor/decoder.o
+                0x000026d8                decoder_read
  .text.decoder_clear
-                0x00002770       0x28 objs/modules/sensor/decoder.o
-                0x00002770                decoder_clear
+                0x0000274c       0x28 objs/modules/sensor/decoder.o
+                0x0000274c                decoder_clear
  .text.calculateCurSpeed
-                0x00002798       0x7c objs/modules/sensor/decoder.o
-                0x00002798                calculateCurSpeed
+                0x00002774       0x7c objs/modules/sensor/decoder.o
+                0x00002774                calculateCurSpeed
  .text.infrared_init
-                0x00002814       0xbc objs/modules/sensor/infrared.o
-                0x00002814                infrared_init
+                0x000027f0       0xbc objs/modules/sensor/infrared.o
+                0x000027f0                infrared_init
  .text.infrared_open_port
-                0x000028d0       0x90 objs/modules/sensor/infrared.o
- .text.main     0x00002960       0xac objs/app/laser_car/laser_car.o
-                0x00002960                main
- .text          0x00002a0c       0x30 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libcs3.a(start_c.o)
-                0x00002a0c                __cs3_premain
+                0x000028ac       0x90 objs/modules/sensor/infrared.o
+ .text.main     0x0000293c       0xac objs/app/laser_car/laser_car.o
+                0x0000293c                main
+ .text          0x000029e8       0x30 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libcs3.a(start_c.o)
+                0x000029e8                __cs3_premain
  .text.cs3.init
-                0x00002a3c       0x50 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libcs3.a(start_c.o)
-                0x00002a3c                __cs3_start_c
- .text          0x00002a8c       0x50 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
-                0x00002a8c                __libc_init_array
+                0x00002a18       0x50 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libcs3.a(start_c.o)
+                0x00002a18                __cs3_start_c
+ .text          0x00002a68       0x50 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
+                0x00002a68                __libc_init_array
  *(.plt)
  *(.gnu.warning)
  *(.glue_7t)
@@ -1504,7 +1504,7 @@ END GROUP
  *(.ARM.extab* .gnu.linkonce.armextab.*)
  *(.gcc_except_table)
 
-.v4_bx          0x00002adc        0x0
+.v4_bx          0x00002ab8        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
 .eh_frame_hdr
@@ -1512,67 +1512,68 @@ END GROUP
 
 .eh_frame
  *(.eh_frame)
-                0x00002adc                __exidx_start = .
+                0x00002ab8                __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x00002adc                __exidx_end = .
+                0x00002ab8                __exidx_end = .
 
-.rodata         0x00002adc       0x54
+.rodata         0x00002ab8       0x58
  *(.rodata .rodata.* .gnu.linkonce.r.*)
  .rodata.siopinib_table
-                0x00002adc       0x10 objs/arch/arm/k60/comi/target_serial.o
-                0x00002adc                siopinib_table
+                0x00002ab8       0x10 objs/arch/arm/k60/comi/target_serial.o
+                0x00002ab8                siopinib_table
  .rodata.spinib_table
-                0x00002aec       0x10 objs/modules/comm/serial.o
-                0x00002afc                . = ALIGN (0x4)
+                0x00002ac8       0x10 objs/modules/comm/serial.o
+                0x00002ad8                . = ALIGN (0x4)
  *(.init)
- .init          0x00002afc        0x4 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crti.o
-                0x00002afc                _init
- .init          0x00002b00        0x8 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crtn.o
-                0x00002b08                . = ALIGN (0x4)
-                0x00002b08                __preinit_array_start = .
+ .init          0x00002ad8        0x4 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crti.o
+                0x00002ad8                _init
+ .init          0x00002adc        0x8 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crtn.o
+                0x00002ae4                . = ALIGN (0x4)
+                0x00002ae4                __preinit_array_start = .
  *(.preinit_array)
-                0x00002b08                __preinit_array_end = .
-                0x00002b08                . = ALIGN (0x4)
-                0x00002b08                __init_array_start = .
+                0x00002ae4                __preinit_array_end = .
+                0x00002ae4                . = ALIGN (0x4)
+                0x00002ae4                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
- .init_array    0x00002b08        0x4 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crtbegin.o
-                0x00002b0c                __init_array_end = .
-                0x00002b0c                . = ALIGN (0x4)
+ .init_array    0x00002ae4        0x4 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crtbegin.o
+                0x00002ae8                __init_array_end = .
+                0x00002ae8                . = ALIGN (0x4)
  *(.fini)
- .fini          0x00002b0c        0x4 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crti.o
-                0x00002b0c                _fini
- .fini          0x00002b10        0x8 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crtn.o
-                0x00002b18                . = ALIGN (0x4)
-                0x00002b18                __fini_array_start = .
+ .fini          0x00002ae8        0x4 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crti.o
+                0x00002ae8                _fini
+ .fini          0x00002aec        0x8 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crtn.o
+                0x00002af4                . = ALIGN (0x4)
+                0x00002af4                __fini_array_start = .
  *(.fini_array)
- .fini_array    0x00002b18        0x4 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crtbegin.o
+ .fini_array    0x00002af4        0x4 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crtbegin.o
  *(SORT(.fini_array.*))
-                0x00002b1c                __fini_array_end = .
-                0x00002b1c                . = ALIGN (0x4)
+                0x00002af8                __fini_array_end = .
+                0x00002af8                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00002b1c                . = ALIGN (0x4)
+                0x00002af8                . = ALIGN (0x4)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x00002b1c                . = ALIGN (0x4)
-                0x00002b1c                __cs3_regions = .
-                0x00002b1c        0x4 LONG 0x0
-                0x00002b20        0x4 LONG 0x2b30 __cs3_region_init_ram
-                0x00002b24        0x4 LONG 0x1fff8000 __cs3_region_start_ram
-                0x00002b28        0x4 LONG 0x400 __cs3_region_init_size_ram
-                0x00002b2c        0x4 LONG 0x430 __cs3_region_zero_size_ram
-                0x00002b30                __cs3_regions_end = .
-                0x00002b30                . = ALIGN (0x8)
-                0x00002b30                _etext = .
+                0x00002af8                . = ALIGN (0x4)
+                0x00002af8                __cs3_regions = .
+                0x00002af8        0x4 LONG 0x0
+                0x00002afc        0x4 LONG 0x2b10 __cs3_region_init_ram
+                0x00002b00        0x4 LONG 0x1fff8000 __cs3_region_start_ram
+                0x00002b04        0x4 LONG 0x400 __cs3_region_init_size_ram
+                0x00002b08        0x4 LONG 0x430 __cs3_region_zero_size_ram
+                0x00002b0c                __cs3_regions_end = .
+                0x00002b10                . = ALIGN (0x8)
+ *fill*         0x00002b0c        0x4 00
+                0x00002b10                _etext = .
 
-.data           0x1fff8000      0x400 load address 0x00002b30
+.data           0x1fff8000      0x400 load address 0x00002b10
                 0x1fff8000                __cs3_region_start_ram = .
  *(.jcr)
  .jcr           0x1fff8000        0x0 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crtbegin.o
@@ -1589,7 +1590,7 @@ END GROUP
  *(.sram)
                 0x1fff8400                _edata = .
 
-.bss            0x1fff8400      0x430 load address 0x00002f30
+.bss            0x1fff8400      0x430 load address 0x00002f10
  *(.shbss)
  *(.bss .bss.* .gnu.linkonce.b.*)
  .bss           0x1fff8400        0x1 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/thumb2/crtbegin.o
@@ -1636,7 +1637,7 @@ END GROUP
                 0x20008000                __onchip_ram_end = 0x20008000
                 0x20008000                __cs3_region_end_ram = 0x20008000
                 0x00010000                __cs3_region_size_ram = (__cs3_region_end_ram - __cs3_region_start_ram)
-                0x00002b30                __cs3_region_init_ram = LOADADDR (.data)
+                0x00002b10                __cs3_region_init_ram = LOADADDR (.data)
                 0x00000400                __cs3_region_init_size_ram = (_edata - ADDR (.data))
                 0x00000430                __cs3_region_zero_size_ram = (_end - _edata)
 
@@ -1955,7 +1956,7 @@ END GROUP
  .debug_pubnames
                 0x0000175f       0x21 library/CMSIS_V3P00/CMSIS/DSP_Lib/libcmsis.a(arm_max_q7.o)
 
-.debug_info     0x00000000     0xfbbc
+.debug_info     0x00000000     0xfbde
  *(.debug_info)
  .debug_info    0x00000000       0x67 objs/arch/arm/k60/startup/start.o
  .debug_info    0x00000067      0x511 objs/arch/arm/k60/analog/adc.o
@@ -1965,56 +1966,56 @@ END GROUP
  .debug_info    0x0000189d      0xa1b objs/arch/arm/k60/comi/spi.o
  .debug_info    0x000022b8      0xdd6 objs/arch/arm/k60/comi/target_serial.o
  .debug_info    0x0000308e      0x224 objs/arch/arm/k60/core/common.o
- .debug_info    0x000032b2      0x8a6 objs/arch/arm/k60/core/exception.o
- .debug_info    0x00003b58      0x4ce objs/arch/arm/k60/core/sys_timer.o
- .debug_info    0x00004026      0x3d5 objs/arch/arm/k60/hmi/gpio.o
- .debug_info    0x000043fb      0x232 objs/arch/arm/k60/memory/flexbus.o
- .debug_info    0x0000462d      0x1a8 objs/arch/arm/k60/system/wdog.o
- .debug_info    0x000047d5      0x562 objs/arch/arm/k60/timer/ftm_decoder.o
- .debug_info    0x00004d37      0x717 objs/arch/arm/k60/timer/ftm_pwm.o
- .debug_info    0x0000544e      0x863 objs/arch/arm/k60/timer/ftm_timer.o
- .debug_info    0x00005cb1      0x858 objs/arch/arm/k60/timer/lptmr.o
- .debug_info    0x00006509      0x70a objs/arch/arm/k60/timer/pit.o
- .debug_info    0x00006c13      0x591 objs/modules/comm/mmc.o
- .debug_info    0x000071a4      0x3d0 objs/modules/comm/sd.o
- .debug_info    0x00007574      0x32f objs/modules/comm/sd_send.o
- .debug_info    0x000078a3      0x724 objs/modules/comm/serial.o
- .debug_info    0x00007fc7      0x1f4 objs/modules/comm/telecontrol.o
- .debug_info    0x000081bb      0x430 objs/modules/device/light.o
- .debug_info    0x000085eb      0x2e3 objs/modules/device/motor.o
- .debug_info    0x000088ce      0x3be objs/modules/device/motor_robot.o
- .debug_info    0x00008c8c      0x292 objs/modules/device/speaker.o
- .debug_info    0x00008f1e      0x301 objs/modules/device/steer.o
- .debug_info    0x0000921f      0x322 objs/modules/device/switch.o
- .debug_info    0x00009541      0x214 objs/modules/sensor/accelerometer.o
- .debug_info    0x00009755      0x31c objs/modules/sensor/decoder.o
- .debug_info    0x00009a71      0x214 objs/modules/sensor/gyro.o
- .debug_info    0x00009c85      0x2da objs/modules/sensor/infrared.o
- .debug_info    0x00009f5f      0x629 objs/modules/signal/image_process.o
- .debug_info    0x0000a588      0x1ca objs/modules/signal/iteration.o
- .debug_info    0x0000a752      0x189 objs/modules/signal/mid_fil.o
- .debug_info    0x0000a8db      0x1fb objs/modules/signal/otsu.o
- .debug_info    0x0000aad6      0x13b objs/common/target_libc.o
- .debug_info    0x0000ac11      0x158 objs/common/ntshell_cmd/control_ntshell.o
- .debug_info    0x0000ad69      0x1b8 objs/common/ntshell_cmd/decoder_ntshell.o
- .debug_info    0x0000af21       0xeb objs/common/ntshell_cmd/help_ntshell.o
- .debug_info    0x0000b00c      0x15b objs/common/ntshell_cmd/light_ntshell.o
- .debug_info    0x0000b167      0x18b objs/common/ntshell_cmd/motor_ntshell.o
- .debug_info    0x0000b2f2      0x3ed objs/common/ntshell_cmd/sd_ntshell.o
- .debug_info    0x0000b6df      0x15b objs/common/ntshell_cmd/speaker_ntshell.o
- .debug_info    0x0000b83a      0x1a2 objs/common/ntshell_cmd/sram_ntshell.o
- .debug_info    0x0000b9dc      0x196 objs/common/ntshell_cmd/switch_ntshell.o
- .debug_info    0x0000bb72      0x4dd objs/common/ntshell_cmd/task_ntshell.o
- .debug_info    0x0000c04f      0x1fd objs/library/ntshell/ntlibc.o
- .debug_info    0x0000c24c      0x1fa objs/library/ntshell/ntopt.o
- .debug_info    0x0000c446      0xa02 objs/library/ntshell/ntshell.o
- .debug_info    0x0000ce48      0x35d objs/library/ntshell/text_editor.o
- .debug_info    0x0000d1a5      0x2d0 objs/library/ntshell/text_history.o
- .debug_info    0x0000d475      0x3cc objs/library/ntshell/vtparse.o
- .debug_info    0x0000d841      0x2b8 objs/library/ntshell/vtparse_table.o
- .debug_info    0x0000daf9     0x1b8e objs/library/fatfs/ff.o
- .debug_info    0x0000f687      0x383 objs/app/laser_car/laser_car.o
- .debug_info    0x0000fa0a      0x1b2 library/CMSIS_V3P00/CMSIS/DSP_Lib/libcmsis.a(arm_max_q7.o)
+ .debug_info    0x000032b2      0x8c8 objs/arch/arm/k60/core/exception.o
+ .debug_info    0x00003b7a      0x4ce objs/arch/arm/k60/core/sys_timer.o
+ .debug_info    0x00004048      0x3d5 objs/arch/arm/k60/hmi/gpio.o
+ .debug_info    0x0000441d      0x232 objs/arch/arm/k60/memory/flexbus.o
+ .debug_info    0x0000464f      0x1a8 objs/arch/arm/k60/system/wdog.o
+ .debug_info    0x000047f7      0x562 objs/arch/arm/k60/timer/ftm_decoder.o
+ .debug_info    0x00004d59      0x717 objs/arch/arm/k60/timer/ftm_pwm.o
+ .debug_info    0x00005470      0x863 objs/arch/arm/k60/timer/ftm_timer.o
+ .debug_info    0x00005cd3      0x858 objs/arch/arm/k60/timer/lptmr.o
+ .debug_info    0x0000652b      0x70a objs/arch/arm/k60/timer/pit.o
+ .debug_info    0x00006c35      0x591 objs/modules/comm/mmc.o
+ .debug_info    0x000071c6      0x3d0 objs/modules/comm/sd.o
+ .debug_info    0x00007596      0x32f objs/modules/comm/sd_send.o
+ .debug_info    0x000078c5      0x724 objs/modules/comm/serial.o
+ .debug_info    0x00007fe9      0x1f4 objs/modules/comm/telecontrol.o
+ .debug_info    0x000081dd      0x430 objs/modules/device/light.o
+ .debug_info    0x0000860d      0x2e3 objs/modules/device/motor.o
+ .debug_info    0x000088f0      0x3be objs/modules/device/motor_robot.o
+ .debug_info    0x00008cae      0x292 objs/modules/device/speaker.o
+ .debug_info    0x00008f40      0x301 objs/modules/device/steer.o
+ .debug_info    0x00009241      0x322 objs/modules/device/switch.o
+ .debug_info    0x00009563      0x214 objs/modules/sensor/accelerometer.o
+ .debug_info    0x00009777      0x31c objs/modules/sensor/decoder.o
+ .debug_info    0x00009a93      0x214 objs/modules/sensor/gyro.o
+ .debug_info    0x00009ca7      0x2da objs/modules/sensor/infrared.o
+ .debug_info    0x00009f81      0x629 objs/modules/signal/image_process.o
+ .debug_info    0x0000a5aa      0x1ca objs/modules/signal/iteration.o
+ .debug_info    0x0000a774      0x189 objs/modules/signal/mid_fil.o
+ .debug_info    0x0000a8fd      0x1fb objs/modules/signal/otsu.o
+ .debug_info    0x0000aaf8      0x13b objs/common/target_libc.o
+ .debug_info    0x0000ac33      0x158 objs/common/ntshell_cmd/control_ntshell.o
+ .debug_info    0x0000ad8b      0x1b8 objs/common/ntshell_cmd/decoder_ntshell.o
+ .debug_info    0x0000af43       0xeb objs/common/ntshell_cmd/help_ntshell.o
+ .debug_info    0x0000b02e      0x15b objs/common/ntshell_cmd/light_ntshell.o
+ .debug_info    0x0000b189      0x18b objs/common/ntshell_cmd/motor_ntshell.o
+ .debug_info    0x0000b314      0x3ed objs/common/ntshell_cmd/sd_ntshell.o
+ .debug_info    0x0000b701      0x15b objs/common/ntshell_cmd/speaker_ntshell.o
+ .debug_info    0x0000b85c      0x1a2 objs/common/ntshell_cmd/sram_ntshell.o
+ .debug_info    0x0000b9fe      0x196 objs/common/ntshell_cmd/switch_ntshell.o
+ .debug_info    0x0000bb94      0x4dd objs/common/ntshell_cmd/task_ntshell.o
+ .debug_info    0x0000c071      0x1fd objs/library/ntshell/ntlibc.o
+ .debug_info    0x0000c26e      0x1fa objs/library/ntshell/ntopt.o
+ .debug_info    0x0000c468      0xa02 objs/library/ntshell/ntshell.o
+ .debug_info    0x0000ce6a      0x35d objs/library/ntshell/text_editor.o
+ .debug_info    0x0000d1c7      0x2d0 objs/library/ntshell/text_history.o
+ .debug_info    0x0000d497      0x3cc objs/library/ntshell/vtparse.o
+ .debug_info    0x0000d863      0x2b8 objs/library/ntshell/vtparse_table.o
+ .debug_info    0x0000db1b     0x1b8e objs/library/fatfs/ff.o
+ .debug_info    0x0000f6a9      0x383 objs/app/laser_car/laser_car.o
+ .debug_info    0x0000fa2c      0x1b2 library/CMSIS_V3P00/CMSIS/DSP_Lib/libcmsis.a(arm_max_q7.o)
 
 .debug_abbrev   0x00000000     0x3c0a
  *(.debug_abbrev)
@@ -2077,7 +2078,7 @@ END GROUP
  .debug_abbrev  0x00003a8e       0xe9 objs/app/laser_car/laser_car.o
  .debug_abbrev  0x00003b77       0x93 library/CMSIS_V3P00/CMSIS/DSP_Lib/libcmsis.a(arm_max_q7.o)
 
-.debug_line     0x00000000     0x6742
+.debug_line     0x00000000     0x674b
  *(.debug_line)
  .debug_line    0x00000000       0x65 objs/arch/arm/k60/startup/start.o
  .debug_line    0x00000065      0x16b objs/arch/arm/k60/analog/adc.o
@@ -2087,56 +2088,56 @@ END GROUP
  .debug_line    0x000008ed      0x1c9 objs/arch/arm/k60/comi/spi.o
  .debug_line    0x00000ab6      0x29f objs/arch/arm/k60/comi/target_serial.o
  .debug_line    0x00000d55       0xfa objs/arch/arm/k60/core/common.o
- .debug_line    0x00000e4f      0x22d objs/arch/arm/k60/core/exception.o
- .debug_line    0x0000107c      0x15b objs/arch/arm/k60/core/sys_timer.o
- .debug_line    0x000011d7      0x17e objs/arch/arm/k60/hmi/gpio.o
- .debug_line    0x00001355      0x120 objs/arch/arm/k60/memory/flexbus.o
- .debug_line    0x00001475      0x11a objs/arch/arm/k60/system/wdog.o
- .debug_line    0x0000158f      0x12f objs/arch/arm/k60/timer/ftm_decoder.o
- .debug_line    0x000016be      0x1eb objs/arch/arm/k60/timer/ftm_pwm.o
- .debug_line    0x000018a9      0x19e objs/arch/arm/k60/timer/ftm_timer.o
- .debug_line    0x00001a47      0x162 objs/arch/arm/k60/timer/lptmr.o
- .debug_line    0x00001ba9      0x147 objs/arch/arm/k60/timer/pit.o
- .debug_line    0x00001cf0      0x44d objs/modules/comm/mmc.o
- .debug_line    0x0000213d       0xb2 objs/modules/comm/sd.o
- .debug_line    0x000021ef       0xfe objs/modules/comm/sd_send.o
- .debug_line    0x000022ed      0x388 objs/modules/comm/serial.o
- .debug_line    0x00002675       0xc7 objs/modules/comm/telecontrol.o
- .debug_line    0x0000273c      0x272 objs/modules/device/light.o
- .debug_line    0x000029ae      0x19c objs/modules/device/motor.o
- .debug_line    0x00002b4a      0x207 objs/modules/device/motor_robot.o
- .debug_line    0x00002d51      0x104 objs/modules/device/speaker.o
- .debug_line    0x00002e55      0x17c objs/modules/device/steer.o
- .debug_line    0x00002fd1      0x19c objs/modules/device/switch.o
- .debug_line    0x0000316d      0x148 objs/modules/sensor/accelerometer.o
- .debug_line    0x000032b5      0x18a objs/modules/sensor/decoder.o
- .debug_line    0x0000343f      0x13e objs/modules/sensor/gyro.o
- .debug_line    0x0000357d      0x143 objs/modules/sensor/infrared.o
- .debug_line    0x000036c0      0x38d objs/modules/signal/image_process.o
- .debug_line    0x00003a4d       0xb9 objs/modules/signal/iteration.o
- .debug_line    0x00003b06       0xc0 objs/modules/signal/mid_fil.o
- .debug_line    0x00003bc6       0xac objs/modules/signal/otsu.o
- .debug_line    0x00003c72       0x73 objs/common/target_libc.o
- .debug_line    0x00003ce5      0x106 objs/common/ntshell_cmd/control_ntshell.o
- .debug_line    0x00003deb      0x1b4 objs/common/ntshell_cmd/decoder_ntshell.o
- .debug_line    0x00003f9f       0xea objs/common/ntshell_cmd/help_ntshell.o
- .debug_line    0x00004089      0x1d6 objs/common/ntshell_cmd/light_ntshell.o
- .debug_line    0x0000425f      0x193 objs/common/ntshell_cmd/motor_ntshell.o
- .debug_line    0x000043f2      0x1e6 objs/common/ntshell_cmd/sd_ntshell.o
- .debug_line    0x000045d8      0x19e objs/common/ntshell_cmd/speaker_ntshell.o
- .debug_line    0x00004776      0x12b objs/common/ntshell_cmd/sram_ntshell.o
- .debug_line    0x000048a1      0x1c6 objs/common/ntshell_cmd/switch_ntshell.o
- .debug_line    0x00004a67      0x1b1 objs/common/ntshell_cmd/task_ntshell.o
- .debug_line    0x00004c18      0x123 objs/library/ntshell/ntlibc.o
- .debug_line    0x00004d3b       0xfb objs/library/ntshell/ntopt.o
- .debug_line    0x00004e36      0x234 objs/library/ntshell/ntshell.o
- .debug_line    0x0000506a      0x18c objs/library/ntshell/text_editor.o
- .debug_line    0x000051f6      0x128 objs/library/ntshell/text_history.o
- .debug_line    0x0000531e       0xe5 objs/library/ntshell/vtparse.o
- .debug_line    0x00005403       0xad objs/library/ntshell/vtparse_table.o
- .debug_line    0x000054b0      0xf8f objs/library/fatfs/ff.o
- .debug_line    0x0000643f      0x19e objs/app/laser_car/laser_car.o
- .debug_line    0x000065dd      0x165 library/CMSIS_V3P00/CMSIS/DSP_Lib/libcmsis.a(arm_max_q7.o)
+ .debug_line    0x00000e4f      0x236 objs/arch/arm/k60/core/exception.o
+ .debug_line    0x00001085      0x15b objs/arch/arm/k60/core/sys_timer.o
+ .debug_line    0x000011e0      0x17e objs/arch/arm/k60/hmi/gpio.o
+ .debug_line    0x0000135e      0x120 objs/arch/arm/k60/memory/flexbus.o
+ .debug_line    0x0000147e      0x11a objs/arch/arm/k60/system/wdog.o
+ .debug_line    0x00001598      0x12f objs/arch/arm/k60/timer/ftm_decoder.o
+ .debug_line    0x000016c7      0x1eb objs/arch/arm/k60/timer/ftm_pwm.o
+ .debug_line    0x000018b2      0x19e objs/arch/arm/k60/timer/ftm_timer.o
+ .debug_line    0x00001a50      0x162 objs/arch/arm/k60/timer/lptmr.o
+ .debug_line    0x00001bb2      0x147 objs/arch/arm/k60/timer/pit.o
+ .debug_line    0x00001cf9      0x44d objs/modules/comm/mmc.o
+ .debug_line    0x00002146       0xb2 objs/modules/comm/sd.o
+ .debug_line    0x000021f8       0xfe objs/modules/comm/sd_send.o
+ .debug_line    0x000022f6      0x388 objs/modules/comm/serial.o
+ .debug_line    0x0000267e       0xc7 objs/modules/comm/telecontrol.o
+ .debug_line    0x00002745      0x272 objs/modules/device/light.o
+ .debug_line    0x000029b7      0x19c objs/modules/device/motor.o
+ .debug_line    0x00002b53      0x207 objs/modules/device/motor_robot.o
+ .debug_line    0x00002d5a      0x104 objs/modules/device/speaker.o
+ .debug_line    0x00002e5e      0x17c objs/modules/device/steer.o
+ .debug_line    0x00002fda      0x19c objs/modules/device/switch.o
+ .debug_line    0x00003176      0x148 objs/modules/sensor/accelerometer.o
+ .debug_line    0x000032be      0x18a objs/modules/sensor/decoder.o
+ .debug_line    0x00003448      0x13e objs/modules/sensor/gyro.o
+ .debug_line    0x00003586      0x143 objs/modules/sensor/infrared.o
+ .debug_line    0x000036c9      0x38d objs/modules/signal/image_process.o
+ .debug_line    0x00003a56       0xb9 objs/modules/signal/iteration.o
+ .debug_line    0x00003b0f       0xc0 objs/modules/signal/mid_fil.o
+ .debug_line    0x00003bcf       0xac objs/modules/signal/otsu.o
+ .debug_line    0x00003c7b       0x73 objs/common/target_libc.o
+ .debug_line    0x00003cee      0x106 objs/common/ntshell_cmd/control_ntshell.o
+ .debug_line    0x00003df4      0x1b4 objs/common/ntshell_cmd/decoder_ntshell.o
+ .debug_line    0x00003fa8       0xea objs/common/ntshell_cmd/help_ntshell.o
+ .debug_line    0x00004092      0x1d6 objs/common/ntshell_cmd/light_ntshell.o
+ .debug_line    0x00004268      0x193 objs/common/ntshell_cmd/motor_ntshell.o
+ .debug_line    0x000043fb      0x1e6 objs/common/ntshell_cmd/sd_ntshell.o
+ .debug_line    0x000045e1      0x19e objs/common/ntshell_cmd/speaker_ntshell.o
+ .debug_line    0x0000477f      0x12b objs/common/ntshell_cmd/sram_ntshell.o
+ .debug_line    0x000048aa      0x1c6 objs/common/ntshell_cmd/switch_ntshell.o
+ .debug_line    0x00004a70      0x1b1 objs/common/ntshell_cmd/task_ntshell.o
+ .debug_line    0x00004c21      0x123 objs/library/ntshell/ntlibc.o
+ .debug_line    0x00004d44       0xfb objs/library/ntshell/ntopt.o
+ .debug_line    0x00004e3f      0x234 objs/library/ntshell/ntshell.o
+ .debug_line    0x00005073      0x18c objs/library/ntshell/text_editor.o
+ .debug_line    0x000051ff      0x128 objs/library/ntshell/text_history.o
+ .debug_line    0x00005327       0xe5 objs/library/ntshell/vtparse.o
+ .debug_line    0x0000540c       0xad objs/library/ntshell/vtparse_table.o
+ .debug_line    0x000054b9      0xf8f objs/library/fatfs/ff.o
+ .debug_line    0x00006448      0x19e objs/app/laser_car/laser_car.o
+ .debug_line    0x000065e6      0x165 library/CMSIS_V3P00/CMSIS/DSP_Lib/libcmsis.a(arm_max_q7.o)
 
 .debug_frame    0x00000000     0x3ea0
  *(.debug_frame)
@@ -2260,7 +2261,7 @@ END GROUP
  .debug_frame   0x00003e54       0x20 /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-errno.o)
  .debug_frame   0x00003e74       0x2c /home/hcx/Java/CodeSourcery/Sourcery_G++_Lite/bin/../lib/gcc/arm-none-eabi/4.5.2/../../../../arm-none-eabi/lib/thumb2/libc.a(lib_a-init.o)
 
-.debug_str      0x00000000     0x3c86
+.debug_str      0x00000000     0x3c8f
  *(.debug_str)
  .debug_str     0x00000000      0x20f objs/arch/arm/k60/analog/adc.o
                                 0x256 (size before relaxing)
@@ -2276,105 +2277,105 @@ END GROUP
                                 0xa91 (size before relaxing)
  .debug_str     0x00001088       0x87 objs/arch/arm/k60/core/common.o
                                 0x169 (size before relaxing)
- .debug_str     0x0000110f      0x14a objs/arch/arm/k60/core/exception.o
-                                0x8d4 (size before relaxing)
- .debug_str     0x00001259       0xbe objs/arch/arm/k60/core/sys_timer.o
+ .debug_str     0x0000110f      0x153 objs/arch/arm/k60/core/exception.o
+                                0x8dd (size before relaxing)
+ .debug_str     0x00001262       0xbe objs/arch/arm/k60/core/sys_timer.o
                                 0x7a4 (size before relaxing)
- .debug_str     0x00001317       0x9e objs/arch/arm/k60/hmi/gpio.o
+ .debug_str     0x00001320       0x9e objs/arch/arm/k60/hmi/gpio.o
                                 0x1ce (size before relaxing)
- .debug_str     0x000013b5       0x62 objs/arch/arm/k60/memory/flexbus.o
+ .debug_str     0x000013be       0x62 objs/arch/arm/k60/memory/flexbus.o
                                 0x17e (size before relaxing)
- .debug_str     0x00001417       0x4a objs/arch/arm/k60/system/wdog.o
+ .debug_str     0x00001420       0x4a objs/arch/arm/k60/system/wdog.o
                                 0x173 (size before relaxing)
- .debug_str     0x00001461       0xcf objs/arch/arm/k60/timer/ftm_decoder.o
+ .debug_str     0x0000146a       0xcf objs/arch/arm/k60/timer/ftm_decoder.o
                                 0x2a7 (size before relaxing)
- .debug_str     0x00001530       0x94 objs/arch/arm/k60/timer/ftm_pwm.o
+ .debug_str     0x00001539       0x94 objs/arch/arm/k60/timer/ftm_pwm.o
                                 0x32b (size before relaxing)
- .debug_str     0x000015c4       0xae objs/arch/arm/k60/timer/ftm_timer.o
+ .debug_str     0x000015cd       0xae objs/arch/arm/k60/timer/ftm_timer.o
                                 0x905 (size before relaxing)
- .debug_str     0x00001672       0x93 objs/arch/arm/k60/timer/lptmr.o
+ .debug_str     0x0000167b       0x93 objs/arch/arm/k60/timer/lptmr.o
                                 0x8a7 (size before relaxing)
- .debug_str     0x00001705       0x95 objs/arch/arm/k60/timer/pit.o
+ .debug_str     0x0000170e       0x95 objs/arch/arm/k60/timer/pit.o
                                 0x849 (size before relaxing)
- .debug_str     0x0000179a      0x139 objs/modules/comm/mmc.o
+ .debug_str     0x000017a3      0x139 objs/modules/comm/mmc.o
                                 0x242 (size before relaxing)
- .debug_str     0x000018d3      0x1ff objs/modules/comm/sd.o
+ .debug_str     0x000018dc      0x1ff objs/modules/comm/sd.o
                                 0x2db (size before relaxing)
- .debug_str     0x00001ad2       0xdd objs/modules/comm/sd_send.o
+ .debug_str     0x00001adb       0xdd objs/modules/comm/sd_send.o
                                 0x1b5 (size before relaxing)
- .debug_str     0x00001baf      0x265 objs/modules/comm/serial.o
+ .debug_str     0x00001bb8      0x265 objs/modules/comm/serial.o
                                 0x37c (size before relaxing)
- .debug_str     0x00001e14       0x9f objs/modules/comm/telecontrol.o
+ .debug_str     0x00001e1d       0x9f objs/modules/comm/telecontrol.o
                                 0x187 (size before relaxing)
- .debug_str     0x00001eb3      0x105 objs/modules/device/light.o
+ .debug_str     0x00001ebc      0x105 objs/modules/device/light.o
                                 0x213 (size before relaxing)
- .debug_str     0x00001fb8       0xfb objs/modules/device/motor.o
+ .debug_str     0x00001fc1       0xfb objs/modules/device/motor.o
                                 0x1f8 (size before relaxing)
- .debug_str     0x000020b3      0x13b objs/modules/device/motor_robot.o
+ .debug_str     0x000020bc      0x13b objs/modules/device/motor_robot.o
                                 0x2a1 (size before relaxing)
- .debug_str     0x000021ee       0xb3 objs/modules/device/speaker.o
+ .debug_str     0x000021f7       0xb3 objs/modules/device/speaker.o
                                 0x195 (size before relaxing)
- .debug_str     0x000022a1       0xc7 objs/modules/device/steer.o
+ .debug_str     0x000022aa       0xc7 objs/modules/device/steer.o
                                 0x1e8 (size before relaxing)
- .debug_str     0x00002368      0x118 objs/modules/device/switch.o
+ .debug_str     0x00002371      0x118 objs/modules/device/switch.o
                                 0x202 (size before relaxing)
- .debug_str     0x00002480       0x89 objs/modules/sensor/accelerometer.o
+ .debug_str     0x00002489       0x89 objs/modules/sensor/accelerometer.o
                                 0x184 (size before relaxing)
- .debug_str     0x00002509       0xe0 objs/modules/sensor/decoder.o
+ .debug_str     0x00002512       0xe0 objs/modules/sensor/decoder.o
                                 0x20e (size before relaxing)
- .debug_str     0x000025e9       0x7d objs/modules/sensor/gyro.o
+ .debug_str     0x000025f2       0x7d objs/modules/sensor/gyro.o
                                 0x178 (size before relaxing)
- .debug_str     0x00002666       0xf8 objs/modules/sensor/infrared.o
+ .debug_str     0x0000266f       0xf8 objs/modules/sensor/infrared.o
                                 0x216 (size before relaxing)
- .debug_str     0x0000275e      0x242 objs/modules/signal/image_process.o
+ .debug_str     0x00002767      0x242 objs/modules/signal/image_process.o
                                 0x33f (size before relaxing)
- .debug_str     0x000029a0       0xb8 objs/modules/signal/iteration.o
+ .debug_str     0x000029a9       0xb8 objs/modules/signal/iteration.o
                                 0x17e (size before relaxing)
- .debug_str     0x00002a58       0x56 objs/modules/signal/mid_fil.o
+ .debug_str     0x00002a61       0x56 objs/modules/signal/mid_fil.o
                                 0x111 (size before relaxing)
- .debug_str     0x00002aae       0x34 objs/modules/signal/otsu.o
+ .debug_str     0x00002ab7       0x34 objs/modules/signal/otsu.o
                                 0x111 (size before relaxing)
- .debug_str     0x00002ae2       0x15 objs/common/target_libc.o
+ .debug_str     0x00002aeb       0x15 objs/common/target_libc.o
                                  0xeb (size before relaxing)
- .debug_str     0x00002af7       0x6f objs/common/ntshell_cmd/control_ntshell.o
+ .debug_str     0x00002b00       0x6f objs/common/ntshell_cmd/control_ntshell.o
                                 0x155 (size before relaxing)
- .debug_str     0x00002b66       0x7f objs/common/ntshell_cmd/decoder_ntshell.o
+ .debug_str     0x00002b6f       0x7f objs/common/ntshell_cmd/decoder_ntshell.o
                                 0x176 (size before relaxing)
- .debug_str     0x00002be5       0x3b objs/common/ntshell_cmd/help_ntshell.o
+ .debug_str     0x00002bee       0x3b objs/common/ntshell_cmd/help_ntshell.o
                                 0x10a (size before relaxing)
- .debug_str     0x00002c20       0x3e objs/common/ntshell_cmd/light_ntshell.o
+ .debug_str     0x00002c29       0x3e objs/common/ntshell_cmd/light_ntshell.o
                                 0x12f (size before relaxing)
- .debug_str     0x00002c5e       0x6a objs/common/ntshell_cmd/motor_ntshell.o
+ .debug_str     0x00002c67       0x6a objs/common/ntshell_cmd/motor_ntshell.o
                                 0x15b (size before relaxing)
- .debug_str     0x00002cc8       0x76 objs/common/ntshell_cmd/sd_ntshell.o
+ .debug_str     0x00002cd1       0x76 objs/common/ntshell_cmd/sd_ntshell.o
                                 0x244 (size before relaxing)
- .debug_str     0x00002d3e       0x44 objs/common/ntshell_cmd/speaker_ntshell.o
+ .debug_str     0x00002d47       0x44 objs/common/ntshell_cmd/speaker_ntshell.o
                                 0x135 (size before relaxing)
- .debug_str     0x00002d82       0x47 objs/common/ntshell_cmd/sram_ntshell.o
+ .debug_str     0x00002d8b       0x47 objs/common/ntshell_cmd/sram_ntshell.o
                                 0x137 (size before relaxing)
- .debug_str     0x00002dc9       0x4d objs/common/ntshell_cmd/switch_ntshell.o
+ .debug_str     0x00002dd2       0x4d objs/common/ntshell_cmd/switch_ntshell.o
                                 0x155 (size before relaxing)
- .debug_str     0x00002e16      0x404 objs/common/ntshell_cmd/task_ntshell.o
+ .debug_str     0x00002e1f      0x404 objs/common/ntshell_cmd/task_ntshell.o
                                 0x513 (size before relaxing)
- .debug_str     0x0000321a       0x67 objs/library/ntshell/ntlibc.o
+ .debug_str     0x00003223       0x67 objs/library/ntshell/ntlibc.o
                                  0xa6 (size before relaxing)
- .debug_str     0x00003281       0x49 objs/library/ntshell/ntopt.o
+ .debug_str     0x0000328a       0x49 objs/library/ntshell/ntopt.o
                                  0x97 (size before relaxing)
- .debug_str     0x000032ca      0x186 objs/library/ntshell/ntshell.o
+ .debug_str     0x000032d3      0x186 objs/library/ntshell/ntshell.o
                                 0x593 (size before relaxing)
- .debug_str     0x00003450      0x115 objs/library/ntshell/text_editor.o
+ .debug_str     0x00003459      0x115 objs/library/ntshell/text_editor.o
                                 0x169 (size before relaxing)
- .debug_str     0x00003565       0xd1 objs/library/ntshell/text_history.o
+ .debug_str     0x0000356e       0xd1 objs/library/ntshell/text_history.o
                                 0x132 (size before relaxing)
- .debug_str     0x00003636       0x98 objs/library/ntshell/vtparse.o
+ .debug_str     0x0000363f       0x98 objs/library/ntshell/vtparse.o
                                 0x4bb (size before relaxing)
- .debug_str     0x000036ce       0x74 objs/library/ntshell/vtparse_table.o
+ .debug_str     0x000036d7       0x74 objs/library/ntshell/vtparse_table.o
                                 0x3f0 (size before relaxing)
- .debug_str     0x00003742      0x2cd objs/library/fatfs/ff.o
+ .debug_str     0x0000374b      0x2cd objs/library/fatfs/ff.o
                                 0x5b3 (size before relaxing)
- .debug_str     0x00003a0f      0x195 objs/app/laser_car/laser_car.o
+ .debug_str     0x00003a18      0x195 objs/app/laser_car/laser_car.o
                                 0x2c9 (size before relaxing)
- .debug_str     0x00003ba4       0xe2 library/CMSIS_V3P00/CMSIS/DSP_Lib/libcmsis.a(arm_max_q7.o)
+ .debug_str     0x00003bad       0xe2 library/CMSIS_V3P00/CMSIS/DSP_Lib/libcmsis.a(arm_max_q7.o)
                                 0x1a0 (size before relaxing)
 
 .debug_loc      0x00000000     0x4973
